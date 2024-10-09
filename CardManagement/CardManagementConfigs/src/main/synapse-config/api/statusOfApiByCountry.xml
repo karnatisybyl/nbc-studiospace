@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/api/v1/status" name="statusOfApiByCountry" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{country}">
+        <inSequence>
+            <property expression="get-property('uri.var.country')" name="uri.var.country" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-channel-id" name="x-absa-channel-id" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id" scope="default" type="STRING"/>
+            <log level="full">
+                <property name="Request" value="Incoming API Request statusOfApiByCountry"/>
+                <property expression="get-property('uri.var.country')" name="uri.var.country"/>
+                <property expression="$trp:x-absa-channel-id" name="x-absa-channel-id"/>
+                <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id"/>
+            </log>
+            <header name="Accept" scope="transport" value="application/json"/>
+            <header expression="get-property('x-absa-channel-id')" name="x-absa-channel-id" scope="transport"/>
+            <header expression="get-property('x-absa-trace-id')" name="x-absa-trace-id" scope="transport"/>
+            <property name="Staging" scope="default" type="STRING" value="beforeSparrow"/>
+            <call>
+                <endpoint key="statusOfApiByCountry_EP"/>
+            </call>
+            <property expression="json-eval($)" name="epResponse" scope="default" type="STRING"/>
+            <property expression="$axis2:REST_URL_POSTFIX" name="path" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="json-eval($)" name="epResponse"/>
+                <property expression="$axis2:REST_URL_POSTFIX" name="path"/>
+            </log>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then>
+                    <enrich>
+                        <source clone="true" property="epResponse" type="property"/>
+                        <target type="body"/>
+                    </enrich>
+                </then>
+                <else>
+                    <enrich>
+                        <source clone="true" property="epResponse" type="property"/>
+                        <target type="body"/>
+                    </enrich>
+                </else>
+            </filter>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <sequence key="CardManagenetFaultSeq"/>
+        </faultSequence>
+    </resource>
+</api>

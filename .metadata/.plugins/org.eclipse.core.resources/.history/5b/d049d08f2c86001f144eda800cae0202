@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/api/v1/cards/status" name="retrieveCardStatus" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{country}">
+        <inSequence>
+            <property expression="get-property('uri.var.country')" name="uri.var.country" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-channel-id" name="x-absa-channel-id" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-card-id" name="x-absa-card-id" scope="default" type="STRING"/>
+            <log level="full">
+                <property name="Request" value="Incoming API Request getCardLimit"/>
+                <property expression="get-property('uri.var.country')" name="uri.var.country"/>
+                <property expression="$trp:x-absa-channel-id" name="x-absa-channel-id"/>
+                <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id"/>
+            </log>
+            <header name="Accept" scope="transport" value="application/json"/>
+            <header expression="get-property('x-absa-channel-id')" name="x-absa-channel-id" scope="transport"/>
+            <header expression="get-property('x-absa-card-id')" name="x-absa-card-id" scope="transport"/>
+            <header expression="get-property('x-absa-trace-id')" name="x-absa-trace-id" scope="transport"/>
+            <property name="Staging" scope="default" type="STRING" value="beforeSparrow"/>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="https://sparrow-rsi-uat.intra.nbc.co.tz:8999/{uri.var.country}/api/v1/cards/status">
+                        <timeout>
+                            <duration>10000</duration>
+                            <responseAction>discard</responseAction>
+                        </timeout>
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>1</progressionFactor>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <property expression="json-eval($)" name="epResponse" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="json-eval($)" name="epResponse"/>
+                <property expression="$axis2:REST_URL_POSTFIX" name="path"/>
+            </log>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then>
+                    <enrich>
+                        <source clone="true" property="epResponse" type="property"/>
+                        <target type="body"/>
+                    </enrich>
+                </then>
+                <else>
+                    <enrich>
+                        <source clone="true" property="epResponse" type="property"/>
+                        <target type="body"/>
+                    </enrich>
+                </else>
+            </filter>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <sequence key="CardManagenetFaultSeq"/>
+        </faultSequence>
+    </resource>
+    <resource methods="PUT" uri-template="/{country}">
+        <inSequence>
+            <property expression="json-eval($)" name="Request" scope="default" type="STRING"/>
+            <property expression="json-eval($.data.status)" name="status" scope="default" type="STRING"/>
+            <property expression="json-eval($.data.statusReason)" name="statusReason" scope="default" type="STRING"/>
+            <property expression="get-property('uri.var.country')" name="uri.var.country" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-channel-id" name="x-absa-channel-id" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-card-id" name="x-absa-card-id" scope="default" type="STRING"/>
+            <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id" scope="default" type="STRING"/>
+            <log level="full">
+                <property name="Request" value="Incoming API Request UpdateCardPin"/>
+                <property expression="json-eval($)" name="Request"/>
+                <property expression="json-eval($.data.status)" name="status"/>
+                <property expression="json-eval($.data.statusReason)" name="statusReason"/>
+                <property expression="get-property('uri.var.country')" name="uri.var.country"/>
+                <property expression="$trp:x-absa-channel-id" name="x-absa-channel-id"/>
+                <property expression="$trp:x-absa-card-id" name="x-absa-card-id"/>
+                <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id"/>
+            </log>
+            <enrich>
+                <source clone="true" property="Request" type="property"/>
+                <target type="body"/>
+            </enrich>
+            <property expression="json-eval($.data.status)" name="status" scope="default" type="STRING"/>
+            <property expression="json-eval($.data.statusReason)" name="statusReason" scope="default" type="STRING"/>
+            <payloadFactory media-type="json">
+                <format>
+		{
+	"data": {
+		"status": "$1",
+		"statusReason": "$2"
+	}
+}
+		</format>
+                <args>
+                    <arg evaluator="xml" expression="status"/>
+                    <arg evaluator="xml" expression="statusReason"/>
+                </args>
+            </payloadFactory>
+            <header name="Accept" scope="transport" value="application/json"/>
+            <header expression="get-property('x-absa-channel-id')" name="x-absa-channel-id" scope="transport"/>
+            <header expression="get-property('x-absa-card-id')" name="x-absa-card-id" scope="transport"/>
+            <header expression="get-property('x-absa-trace-id')" name="x-absa-trace-id" scope="transport"/>
+            <property name="Staging" scope="default" type="STRING" value="beforeSparrow"/>
+            <call>
+                <endpoint>
+                    <http method="post" uri-template="https://sparrow-rsi-uat.intra.nbc.co.tz:8999/{uri.var.country}/api/v1/cards/pin">
+                        <timeout>
+                            <duration>10000</duration>
+                            <responseAction>discard</responseAction>
+                        </timeout>
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>1</progressionFactor>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <property expression="json-eval($)" name="epResponse" scope="default" type="STRING"/>
+            <property expression="$axis2:REST_URL_POSTFIX" name="path" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="json-eval($)" name="epResponse"/>
+                <property expression="$axis2:REST_URL_POSTFIX" name="path"/>
+            </log>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then>
+                    <enrich>
+                        <source clone="true" property="epResponse" type="property"/>
+                        <target type="body"/>
+                    </enrich>
+                </then>
+                <else>
+                    <enrich>
+                        <source clone="true" property="epResponse" type="property"/>
+                        <target type="body"/>
+                    </enrich>
+                </else>
+            </filter>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <sequence key="CardManagenetFaultSeq"/>
+        </faultSequence>
+    </resource>
+</api>

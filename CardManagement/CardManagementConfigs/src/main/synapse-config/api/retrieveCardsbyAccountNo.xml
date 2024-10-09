@@ -9,7 +9,7 @@
             <property expression="$trp:x-absa-account-no" name="x-absa-account-no" scope="default" type="STRING"/>
             <property expression="$trp:x-absa-trace-id" name="x-absa-trace-id" scope="default" type="STRING"/>
             <log level="full">
-                <property name="Request" value="Incoming API Request"/>
+                <property name="Request" value="Incoming API Request retrieveCardsbyAccountNo"/>
                 <property expression="get-property('uri.var.country')" name="uri.var.country"/>
                 <property expression="$url:includeCapture" name="includeCapture"/>
                 <property expression="$url:includeRestricted" name="includeRestricted"/>
@@ -23,21 +23,7 @@
             <header expression="get-property('x-absa-trace-id')" name="x-absa-trace-id" scope="transport"/>
             <property name="Staging" scope="default" type="STRING" value="beforeSparrow"/>
             <call>
-                <endpoint>
-                    <http method="get" uri-template="https://sparrow-rsi-uat.intra.nbc.co.tz:8999/{uri.var.country}/api/v1/accounts/cards?includeCapture={uri.var.includeCapture}&amp;includeRestricted={uri.var.includeRestricted}">
-                        <timeout>
-                            <duration>10000</duration>
-                            <responseAction>discard</responseAction>
-                        </timeout>
-                        <suspendOnFailure>
-                            <initialDuration>-1</initialDuration>
-                            <progressionFactor>1</progressionFactor>
-                        </suspendOnFailure>
-                        <markForSuspension>
-                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
-                        </markForSuspension>
-                    </http>
-                </endpoint>
+                <endpoint key="retrieveCardsByActNo_EP"/>
             </call>
             <property expression="json-eval($)" name="epResponse" scope="default" type="STRING"/>
             <property expression="$axis2:REST_URL_POSTFIX" name="path" scope="default" type="STRING"/>
@@ -63,35 +49,7 @@
         </inSequence>
         <outSequence/>
         <faultSequence>
-            <filter regex="beforeSparrow" source="get-property('Staging')">
-                <then>
-                    <log level="custom">
-                        <property name="###########################ConnectivityFAilkure" value="unabletoConnectSparrow"/>
-                    </log>
-                </then>
-                <else>
-                    <property expression="get-property('ERROR_CODE')" name="ERROR_CODE" scope="default" type="STRING"/>
-                    <property expression="get-property('ERROR_MESSAGE')" name="ERROR_MESSAGE" scope="default" type="STRING"/>
-                    <property expression="get-property('ERROR_DETAIL')" name="ERROR_DETAIL" scope="default" type="STRING"/>
-                    <payloadFactory media-type="json">
-                        <format>
-            {
-                "errorCode": "$1",
-                "errorMessage": "$2",
-                "statusCode": "$3"
-            }
-        </format>
-                        <args>
-                            <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
-                            <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
-                            <arg evaluator="xml" expression="get-property('ERROR_DETAIL')"/>
-                        </args>
-                    </payloadFactory>
-                    <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
-                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-                    <respond/>
-                </else>
-            </filter>
+            <sequence key="CardManagenetFaultSeq"/>
         </faultSequence>
     </resource>
 </api>

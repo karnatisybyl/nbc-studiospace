@@ -1,0 +1,31 @@
+openapi: 3.0.1
+info:
+  title: resetCardPin
+  description: API Definition of resetCardPin
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/api/v1/cards/pin
+paths:
+  /{country}:
+    post:
+      parameters:
+      - name: country
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      requestBody:
+        description: Sample Payload
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                payload:
+                  type: object
+        required: false
+      responses:
+        default:
+          description: Default response

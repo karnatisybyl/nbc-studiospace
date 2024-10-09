@@ -11,4 +11,73 @@
     <artifact name="retrieveCardsbyAccountNo_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/retrieveCardsbyAccountNo_metadata.yaml</file>
     </artifact>
+    <artifact name="Activatecard" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Activatecard.xml</file>
+    </artifact>
+    <artifact name="Activatecard_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Activatecard_swagger.yaml</file>
+    </artifact>
+    <artifact name="Activatecard_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Activatecard_metadata.yaml</file>
+    </artifact>
+    <artifact name="getCardLimit" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/getCardLimit.xml</file>
+    </artifact>
+    <artifact name="getCardLimit_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/getCardLimit_swagger.yaml</file>
+    </artifact>
+    <artifact name="getCardLimit_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/getCardLimit_metadata.yaml</file>
+    </artifact>
+    <artifact name="resetCardPin" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/resetCardPin.xml</file>
+    </artifact>
+    <artifact name="resetCardPin_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/resetCardPin_swagger.yaml</file>
+    </artifact>
+    <artifact name="resetCardPin_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/resetCardPin_metadata.yaml</file>
+    </artifact>
+    <artifact name="retrieveCardStatus" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/retrieveCardStatus.xml</file>
+    </artifact>
+    <artifact name="retrieveCardStatus_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/retrieveCardStatus_swagger.yaml</file>
+    </artifact>
+    <artifact name="retrieveCardStatus_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/retrieveCardStatus_metadata.yaml</file>
+    </artifact>
+    <artifact name="statusOfApiByCountry" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/statusOfApiByCountry.xml</file>
+    </artifact>
+    <artifact name="statusOfApiByCountry_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/statusOfApiByCountry_swagger.yaml</file>
+    </artifact>
+    <artifact name="statusOfApiByCountry_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/statusOfApiByCountry_metadata.yaml</file>
+    </artifact>
+    <artifact name="activateCard_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/activateCard_EP.xml</file>
+    </artifact>
+    <artifact name="getCardLimit_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getCardLimit_EP.xml</file>
+    </artifact>
+    <artifact name="patchCardLimit" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/patchCardLimit.xml</file>
+    </artifact>
+    <artifact name="resetCardPin_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/resetCardPin_EP.xml</file>
+    </artifact>
+    <artifact name="retrieveCardsByActNo_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/retrieveCardsByActNo_EP.xml</file>
+    </artifact>
+    <artifact name="retrieveCardStatus_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/retrieveCardStatus_EP.xml</file>
+    </artifact>
+    <artifact name="putCardStatus_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/putCardStatus_EP.xml</file>
+    </artifact>
+    <artifact name="statusOfApiByCountry_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/statusOfApiByCountry_EP.xml</file>
+    </artifact>
 </artifacts>

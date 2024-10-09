@@ -14,18 +14,41 @@
   <name>CardManagementCompositeExporter</name>
   <description>CardManagementCompositeExporter</description>
   <properties>
-    <com.example.metadata_._retrieveCardsbyAccountNo_metadata>capp/EnterpriseServiceBus</com.example.metadata_._retrieveCardsbyAccountNo_metadata>
-    <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
-    <com.example.sequence_._CardManagenetFaultSeq>capp/EnterpriseServiceBus</com.example.sequence_._CardManagenetFaultSeq>
-    <com.example.api_._retrieveCardsbyAccountNo>capp/EnterpriseServiceBus</com.example.api_._retrieveCardsbyAccountNo>
+    <com.example.endpoint_._putCardStatus_EP>capp/EnterpriseServiceBus</com.example.endpoint_._putCardStatus_EP>
     <com.example.metadata_._retrieveCardsbyAccountNo_swagger>capp/EnterpriseServiceBus</com.example.metadata_._retrieveCardsbyAccountNo_swagger>
+    <com.example.metadata_._resetCardPin_metadata>capp/EnterpriseServiceBus</com.example.metadata_._resetCardPin_metadata>
+    <com.example.metadata_._Activatecard_swagger>capp/EnterpriseServiceBus</com.example.metadata_._Activatecard_swagger>
+    <com.example.endpoint_._getCardLimit_EP>capp/EnterpriseServiceBus</com.example.endpoint_._getCardLimit_EP>
+    <com.example.endpoint_._resetCardPin_EP>capp/EnterpriseServiceBus</com.example.endpoint_._resetCardPin_EP>
+    <com.example.metadata_._statusOfApiByCountry_swagger>capp/EnterpriseServiceBus</com.example.metadata_._statusOfApiByCountry_swagger>
+    <com.example.endpoint_._retrieveCardStatus_EP>capp/EnterpriseServiceBus</com.example.endpoint_._retrieveCardStatus_EP>
+    <com.example.metadata_._resetCardPin_swagger>capp/EnterpriseServiceBus</com.example.metadata_._resetCardPin_swagger>
+    <com.example.api_._resetCardPin>capp/EnterpriseServiceBus</com.example.api_._resetCardPin>
+    <com.example.metadata_._retrieveCardStatus_swagger>capp/EnterpriseServiceBus</com.example.metadata_._retrieveCardStatus_swagger>
+    <com.example.metadata_._getCardLimit_swagger>capp/EnterpriseServiceBus</com.example.metadata_._getCardLimit_swagger>
+    <com.example.metadata_._getCardLimit_metadata>capp/EnterpriseServiceBus</com.example.metadata_._getCardLimit_metadata>
+    <com.example.metadata_._retrieveCardStatus_metadata>capp/EnterpriseServiceBus</com.example.metadata_._retrieveCardStatus_metadata>
+    <com.example.metadata_._statusOfApiByCountry_metadata>capp/EnterpriseServiceBus</com.example.metadata_._statusOfApiByCountry_metadata>
+    <com.example.metadata_._retrieveCardsbyAccountNo_metadata>capp/EnterpriseServiceBus</com.example.metadata_._retrieveCardsbyAccountNo_metadata>
+    <com.example.api_._Activatecard>capp/EnterpriseServiceBus</com.example.api_._Activatecard>
+    <com.example.sequence_._CardManagenetFaultSeq>capp/EnterpriseServiceBus</com.example.sequence_._CardManagenetFaultSeq>
+    <com.example.endpoint_._activateCard_EP>capp/EnterpriseServiceBus</com.example.endpoint_._activateCard_EP>
+    <com.example.api_._retrieveCardStatus>capp/EnterpriseServiceBus</com.example.api_._retrieveCardStatus>
+    <com.example.endpoint_._statusOfApiByCountry_EP>capp/EnterpriseServiceBus</com.example.endpoint_._statusOfApiByCountry_EP>
+    <com.example.metadata_._Activatecard_metadata>capp/EnterpriseServiceBus</com.example.metadata_._Activatecard_metadata>
+    <com.example.endpoint_._retrieveCardsByActNo_EP>capp/EnterpriseServiceBus</com.example.endpoint_._retrieveCardsByActNo_EP>
+    <com.example.api_._getCardLimit>capp/EnterpriseServiceBus</com.example.api_._getCardLimit>
+    <com.example.api_._statusOfApiByCountry>capp/EnterpriseServiceBus</com.example.api_._statusOfApiByCountry>
+    <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.endpoint_._patchCardLimit>capp/EnterpriseServiceBus</com.example.endpoint_._patchCardLimit>
+    <com.example.api_._retrieveCardsbyAccountNo>capp/EnterpriseServiceBus</com.example.api_._retrieveCardsbyAccountNo>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>retrieveCardsbyAccountNo_metadata</artifactId>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>putCardStatus_EP</artifactId>
       <version>1.0.0</version>
-      <type>yaml</type>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
@@ -34,14 +57,152 @@
       <type>yaml</type>
     </dependency>
     <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>resetCardPin_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>Activatecard_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>getCardLimit_EP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>resetCardPin_EP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>statusOfApiByCountry_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>retrieveCardStatus_EP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>resetCardPin_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
       <groupId>com.example.api</groupId>
-      <artifactId>retrieveCardsbyAccountNo</artifactId>
+      <artifactId>resetCardPin</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>retrieveCardStatus_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>getCardLimit_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>getCardLimit_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>retrieveCardStatus_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>statusOfApiByCountry_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>retrieveCardsbyAccountNo_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.api</groupId>
+      <artifactId>Activatecard</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.sequence</groupId>
       <artifactId>CardManagenetFaultSeq</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>activateCard_EP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.api</groupId>
+      <artifactId>retrieveCardStatus</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>statusOfApiByCountry_EP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>Activatecard_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>retrieveCardsByActNo_EP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.api</groupId>
+      <artifactId>getCardLimit</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.api</groupId>
+      <artifactId>statusOfApiByCountry</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>patchCardLimit</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.api</groupId>
+      <artifactId>retrieveCardsbyAccountNo</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>

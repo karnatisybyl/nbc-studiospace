@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="putCardStatus_EP" xmlns="http://ws.apache.org/ns/synapse">
+    <http method="put" uri-template="https://sparrow-rsi-uat.intra.nbc.co.tz:8999/{uri.var.country}/api/v1/cards/status">
+        <suspendOnFailure>
+            <initialDuration>-1</initialDuration>
+            <progressionFactor>1.0</progressionFactor>
+        </suspendOnFailure>
+        <markForSuspension>
+            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+        </markForSuspension>
+    </http>
+</endpoint>

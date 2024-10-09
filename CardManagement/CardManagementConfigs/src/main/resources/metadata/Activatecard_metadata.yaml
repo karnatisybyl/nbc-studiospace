@@ -1,0 +1,11 @@
+---
+key: "Activatecard-1.0.0"
+name : "Activatecard"
+displayName : "Activatecard"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/api/v1/cards/activate"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"
