@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/doChargeDeductionApi" name="doChargeDeductionApi" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <property name="messageType" scope="axis2" type="STRING" value="application/xml"/>
+            <log level="custom">
+                <property expression="$body" name="doChargeDeductionApiRequest"/>
+            </log>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then/>
+                <else>
+                    <payloadFactory media-type="json">
+                        <format>
+                            {
+                                "errorCode": "$1",
+                                "errorDesc": "$2",
+                                "errorMsg": "$3"
+                            }
+                        </format>
+                        <args>
+                            <arg evaluator="xml" expression="//*[local-name()='errorCode']"/>
+                            <arg evaluator="xml" expression="//*[local-name()='message']"/>
+                            <arg evaluator="xml" expression="//*[local-name()='faultstring']"/>
+                        </args>
+                    </payloadFactory>
+                </else>
+            </filter>
+            <!-- Set the response content type to JSON -->
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <property name="Content-Type" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <property expression="get-property('ERROR_CODE')" name="ERROR_CODE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_MESSAGE')" name="ERROR_MESSAGE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_DETAIL')" name="ERROR_DETAIL" scope="default" type="STRING"/>
+            <payloadFactory media-type="json">
+                <format>
+            {
+                "errorCode": "$1",
+                "errorMessage": "$2",
+                "statusCode": "$3"
+            }
+        </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
+                    <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+                    <arg evaluator="xml" expression="get-property('ERROR_DETAIL')"/>
+                </args>
+            </payloadFactory>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

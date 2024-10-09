@@ -1,0 +1,21 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : { },
+  "namespaces" : [ {
+    "prefix" : ":soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : ":spi",
+    "url" : "http://spi.loans.app.fcr.iflex.com"
+  }, {
+    "prefix" : ":con",
+    "url" : "http://context.app.fcr.iflex.com"
+  }, {
+    "prefix" : ":dto",
+    "url" : "http://dto.loans.app.fcr.iflex.com"
+  } ]
+}

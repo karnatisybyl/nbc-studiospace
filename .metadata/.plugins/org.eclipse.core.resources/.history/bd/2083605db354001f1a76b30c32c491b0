@@ -1,0 +1,18 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO =  {};
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+

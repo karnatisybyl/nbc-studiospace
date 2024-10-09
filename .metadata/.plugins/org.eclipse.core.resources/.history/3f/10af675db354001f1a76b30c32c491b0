@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="method" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/method"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="url" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/url"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="headers" schemaDataType="OBJECT" level="2">
+        <node name="Content-Type" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/headers/Content-Type"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="Accept" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/headers/Accept"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="Authorization" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/headers/Authorization"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/headers"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="data" schemaDataType="OBJECT" level="2">
+        <node name="Envelope" schemaDataType="OBJECT" level="3">
+          <node name="Header" schemaDataType="NULL" level="4">
+            <properties key="type" value="null"/>
+            <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Header"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Body" schemaDataType="OBJECT" level="4">
+            <node name="partialPayOff" schemaDataType="OBJECT" level="5">
+              <node name="sessionContext" schemaDataType="OBJECT" level="6">
+                <node name="bankCode" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="channel" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="externalBatchNumber" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="externalReferenceNo" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="externalSystemAuditTrailNumber" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="localDateTimeText" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="originalReferenceNo" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="overridenWarnings" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="postingDateText" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="reason" schemaDataType="OBJECT" level="7">
+                  <node name="comment" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="reasonCode" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="serviceCode" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="sessionTicket" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="supervisorContext" schemaDataType="OBJECT" level="7">
+                  <node name="primaryPassword" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="userId" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{comment={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode, type=string}}"/>
+                  <properties key="properties_id" value="{primaryPassword={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId, type=string}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="transactionBranch" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="userId" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="userReferenceNumber" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="valueDateText" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="loanAccountId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAccountId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="accountID" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/accountID"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="loanAcctAmount" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAcctAmount"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="GLccyShortName" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/GLccyShortName"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="penaltyMethod" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/penaltyMethod"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="isInterestChargeAppliedTillDate" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/isInterestChargeAppliedTillDate"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="rescheduleType" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/rescheduleType"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="narrative" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/narrative"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="flgInstallmentType" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/flgInstallmentType"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="transactionType" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/transactionType"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="extendedReferenceNoDTO" schemaDataType="OBJECT" level="6">
+                <node name="extRefNo1" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="extRefNo2" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="extRefNo3" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="extRefNo4" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="refCustomerNo" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{bankCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText, type=string}}"/>
+                <properties key="properties_id" value="{extRefNo1={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1, type=string}, extRefNo2={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2, type=string}, extRefNo3={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3, type=string}, extRefNo4={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4, type=string}, refCustomerNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body/partialPayOff"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{sessionContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText, type=string}}}, loanAccountId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAccountId, type=string}, accountID={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/accountID, type=string}, loanAcctAmount={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAcctAmount, type=number}, GLccyShortName={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/GLccyShortName, type=string}, penaltyMethod={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/penaltyMethod, type=string}, isInterestChargeAppliedTillDate={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/isInterestChargeAppliedTillDate, type=string}, rescheduleType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/rescheduleType, type=string}, narrative={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/narrative, type=string}, flgInstallmentType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/flgInstallmentType, type=string}, transactionType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/transactionType, type=string}, extendedReferenceNoDTO={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO, type=object, properties={extRefNo1={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1, type=string}, extRefNo2={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2, type=string}, extRefNo3={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3, type=string}, extRefNo4={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4, type=string}, refCustomerNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo, type=string}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/data/Envelope/Body"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{partialPayOff={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff, type=object, properties={sessionContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText, type=string}}}, loanAccountId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAccountId, type=string}, accountID={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/accountID, type=string}, loanAcctAmount={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAcctAmount, type=number}, GLccyShortName={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/GLccyShortName, type=string}, penaltyMethod={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/penaltyMethod, type=string}, isInterestChargeAppliedTillDate={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/isInterestChargeAppliedTillDate, type=string}, rescheduleType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/rescheduleType, type=string}, narrative={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/narrative, type=string}, flgInstallmentType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/flgInstallmentType, type=string}, transactionType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/transactionType, type=string}, extendedReferenceNoDTO={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO, type=object, properties={extRefNo1={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1, type=string}, extRefNo2={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2, type=string}, extRefNo3={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3, type=string}, extRefNo4={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4, type=string}, refCustomerNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo, type=string}}}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/data/Envelope"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{Header={id=http://wso2jsonschema.org/data/Envelope/Header, type=null}, Body={id=http://wso2jsonschema.org/data/Envelope/Body, type=object, properties={partialPayOff={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff, type=object, properties={sessionContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText, type=string}}}, loanAccountId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAccountId, type=string}, accountID={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/accountID, type=string}, loanAcctAmount={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAcctAmount, type=number}, GLccyShortName={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/GLccyShortName, type=string}, penaltyMethod={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/penaltyMethod, type=string}, isInterestChargeAppliedTillDate={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/isInterestChargeAppliedTillDate, type=string}, rescheduleType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/rescheduleType, type=string}, narrative={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/narrative, type=string}, flgInstallmentType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/flgInstallmentType, type=string}, transactionType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/transactionType, type=string}, extendedReferenceNoDTO={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO, type=object, properties={extRefNo1={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1, type=string}, extRefNo2={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2, type=string}, extRefNo3={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3, type=string}, extRefNo4={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4, type=string}, refCustomerNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo, type=string}}}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/data"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{Content-Type={id=http://wso2jsonschema.org/headers/Content-Type, type=string}, Accept={id=http://wso2jsonschema.org/headers/Accept, type=string}, Authorization={id=http://wso2jsonschema.org/headers/Authorization, type=string}}"/>
+        <properties key="properties_id" value="{Envelope={id=http://wso2jsonschema.org/data/Envelope, type=object, properties={Header={id=http://wso2jsonschema.org/data/Envelope/Header, type=null}, Body={id=http://wso2jsonschema.org/data/Envelope/Body, type=object, properties={partialPayOff={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff, type=object, properties={sessionContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText, type=string}}}, loanAccountId={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAccountId, type=string}, accountID={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/accountID, type=string}, loanAcctAmount={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAcctAmount, type=number}, GLccyShortName={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/GLccyShortName, type=string}, penaltyMethod={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/penaltyMethod, type=string}, isInterestChargeAppliedTillDate={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/isInterestChargeAppliedTillDate, type=string}, rescheduleType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/rescheduleType, type=string}, narrative={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/narrative, type=string}, flgInstallmentType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/flgInstallmentType, type=string}, transactionType={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/transactionType, type=string}, extendedReferenceNoDTO={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO, type=object, properties={extRefNo1={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1, type=string}, extRefNo2={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2, type=string}, extRefNo3={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3, type=string}, extRefNo4={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4, type=string}, refCustomerNo={id=http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo, type=string}}}}}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="spi:partialPayOff" schemaDataType="OBJECT" level="3">
+          <node name="spi:sessionContext" schemaDataType="OBJECT" level="4">
+            <node name="con:bankCode" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:bankCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:channel" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:channel"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:externalBatchNumber" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalBatchNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:externalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:externalSystemAuditTrailNumber" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalSystemAuditTrailNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:localDateTimeText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:localDateTimeText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:originalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:originalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:overridenWarnings" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:overridenWarnings"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:postingDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:postingDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:reason" schemaDataType="OBJECT" level="5">
+              <node name="con:comment" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:comment"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="con:reasonCode" schemaDataType="NUMBER" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:reasonCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:serviceCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:serviceCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:sessionTicket" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:sessionTicket"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:supervisorContext" schemaDataType="OBJECT" level="5">
+              <node name="con:primaryPassword" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:primaryPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="con:userId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:reasonCode, type=number}}"/>
+              <properties key="properties_id" value="{con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:userId, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:transactionBranch" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:transactionBranch"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:userId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:userReferenceNumber" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userReferenceNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:valueDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:valueDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:loanAccountId" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:loanAccountId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:accountID" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:accountID"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:loanAcctAmount" schemaDataType="NUMBER" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:loanAcctAmount"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:GLccyShortName" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:GLccyShortName"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:penaltyMethod" schemaDataType="NUMBER" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:penaltyMethod"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:isInterestChargeAppliedTillDate" schemaDataType="NUMBER" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:isInterestChargeAppliedTillDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:rescheduleType" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:rescheduleType"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:narrative" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:narrative"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:flgInstallmentType" schemaDataType="NUMBER" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:flgInstallmentType"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:transactionType" schemaDataType="NUMBER" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:transactionType"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:extendedReferenceNoDTO" schemaDataType="OBJECT" level="4">
+            <node name="dto:extRefNo1" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo1"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="dto:extRefNo2" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo2"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="dto:extRefNo3" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo3"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="dto:extRefNo4" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo4"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="dto:refCustomerNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:refCustomerNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:valueDateText, type=string}}"/>
+            <properties key="properties_id" value="{dto:extRefNo1={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo1, type=number}, dto:extRefNo2={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo2, type=number}, dto:extRefNo3={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo3, type=number}, dto:extRefNo4={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo4, type=number}, dto:refCustomerNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:refCustomerNo, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=spi, url=http://spi.loans.app.fcr.iflex.com}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:valueDateText, type=string}}}, spi:loanAccountId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:loanAccountId, type=string}, spi:accountID={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:accountID, type=string}, spi:loanAcctAmount={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:loanAcctAmount, type=number}, spi:GLccyShortName={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:GLccyShortName, type=string}, spi:penaltyMethod={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:penaltyMethod, type=number}, spi:isInterestChargeAppliedTillDate={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:isInterestChargeAppliedTillDate, type=number}, spi:rescheduleType={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:rescheduleType, type=string}, spi:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:narrative, type=string}, spi:flgInstallmentType={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:flgInstallmentType, type=number}, spi:transactionType={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:transactionType, type=number}, spi:extendedReferenceNoDTO={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO, type=object, properties={dto:extRefNo1={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo1, type=number}, dto:extRefNo2={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo2, type=number}, dto:extRefNo3={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo3, type=number}, dto:extRefNo4={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo4, type=number}, dto:refCustomerNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:refCustomerNo, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{spi:partialPayOff={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff, type=object, properties={spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:sessionContext/con:valueDateText, type=string}}}, spi:loanAccountId={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:loanAccountId, type=string}, spi:accountID={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:accountID, type=string}, spi:loanAcctAmount={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:loanAcctAmount, type=number}, spi:GLccyShortName={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:GLccyShortName, type=string}, spi:penaltyMethod={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:penaltyMethod, type=number}, spi:isInterestChargeAppliedTillDate={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:isInterestChargeAppliedTillDate, type=number}, spi:rescheduleType={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:rescheduleType, type=string}, spi:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:narrative, type=string}, spi:flgInstallmentType={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:flgInstallmentType, type=number}, spi:transactionType={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:transactionType, type=number}, spi:extendedReferenceNoDTO={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO, type=object, properties={dto:extRefNo1={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo1, type=number}, dto:extRefNo2={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo2, type=number}, dto:extRefNo3={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo3, type=number}, dto:extRefNo4={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:extRefNo4, type=number}, dto:refCustomerNo={id=http://wso2jsonschema.org/soapenv:Body/spi:partialPayOff/spi:extendedReferenceNoDTO/dto:refCustomerNo, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=con, url=http://context.app.fcr.iflex.com},{prefix=spi, url=http://spi.loans.app.fcr.iflex.com},{prefix=dto, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

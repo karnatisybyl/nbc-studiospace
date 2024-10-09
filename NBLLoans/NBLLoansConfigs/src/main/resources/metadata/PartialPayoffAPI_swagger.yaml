@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: PartialPayoffAPI
+  description: API Definition of PartialPayoffAPI
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/PartialPayoffAPI
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

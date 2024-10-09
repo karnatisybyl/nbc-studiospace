@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/PartialPayoffAPI" name="PartialPayoffAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <property expression="json-eval($)" name="PartialPayoffAPIRequest" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="json-eval($)" name="####################PartialPayoffAPIRequest"/>
+            </log>
+            <datamapper config="gov:datamapper/partialPayoffConfig.dmc" inputSchema="gov:datamapper/partialPayoffConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/partialPayoffConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/partialPayoffConfig_xsltStyleSheet.xml"/>
+            <log level="custom">
+                <property expression="$body" name="beforeEP"/>
+            </log>
+            <call>
+                <endpoint key="PartialPayoff_EP"/>
+            </call>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then/>
+                <else>
+                    <payloadFactory media-type="json">
+                        <format>
+                            {
+                                "errorCode": "$1",
+                                "errorDesc": "$2",
+                                "errorMsg": "$3"
+                            }
+                        </format>
+                        <args>
+                            <arg evaluator="xml" expression="//*[local-name()='errorCode']"/>
+                            <arg evaluator="xml" expression="//*[local-name()='message']"/>
+                            <arg evaluator="xml" expression="//*[local-name()='faultstring']"/>
+                        </args>
+                    </payloadFactory>
+                </else>
+            </filter>
+            <!-- Set the response content type to JSON -->
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <property name="Content-Type" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <property expression="get-property('ERROR_CODE')" name="ERROR_CODE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_MESSAGE')" name="ERROR_MESSAGE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_DETAIL')" name="ERROR_DETAIL" scope="default" type="STRING"/>
+            <payloadFactory media-type="json">
+                <format>
+            {
+                "errorCode": "$1",
+                "errorMessage": "$2",
+                "statusCode": "$3"
+            }
+        </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
+                    <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+                    <arg value="get-property('ERROR_DETAIL')"/>
+                </args>
+            </payloadFactory>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

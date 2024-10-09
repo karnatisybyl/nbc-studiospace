@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/PartialPayoffAPI" name="PartialPayoffAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <datamapper config="gov:datamapper/partialPayoffConfig.dmc" inputSchema="gov:datamapper/partialPayoffConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/partialPayoffConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/partialPayoffConfig_xsltStyleSheet.xml"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

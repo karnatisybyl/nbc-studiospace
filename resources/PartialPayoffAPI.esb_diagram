@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_pr-uoIWmEe-H09xSayW6RA" type="Esb" name="PartialPayoffAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_pssgUIWmEe-H09xSayW6RA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pstHYIWmEe-H09xSayW6RA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_sDqXsIWmEe-H09xSayW6RA" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_sDq-wIWmEe-H09xSayW6RA" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_sDxFYIWmEe-H09xSayW6RA" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_sDy6kIWmEe-H09xSayW6RA" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_sDy6kYWmEe-H09xSayW6RA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_sDy6koWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_sDy6k4WmEe-H09xSayW6RA"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDy6lIWmEe-H09xSayW6RA" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sDy6lYWmEe-H09xSayW6RA" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_sDy6loWmEe-H09xSayW6RA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_sDy6l4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_sDy6mIWmEe-H09xSayW6RA"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDy6mYWmEe-H09xSayW6RA" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sDzhoIWmEe-H09xSayW6RA" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_sDzhoYWmEe-H09xSayW6RA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_sDzhooWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_sDzho4WmEe-H09xSayW6RA"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDzhpIWmEe-H09xSayW6RA" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sDzhpYWmEe-H09xSayW6RA" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_sDzhpoWmEe-H09xSayW6RA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_sDzhp4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_sDzhqIWmEe-H09xSayW6RA"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDzhqYWmEe-H09xSayW6RA" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sDzhqoWmEe-H09xSayW6RA" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_sD0vwIWmEe-H09xSayW6RA" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_sD1W0IWmEe-H09xSayW6RA" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_sD1W1YWmEe-H09xSayW6RA" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_sD8EgIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sD8EhYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sD-gwIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD-gwYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sD-gwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sD-gw4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD-gxIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sD-gxYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD-gxoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sD-gx4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sD-gyIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD-gyYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD8EgYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sD8EgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sD8Eg4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD8EhIWmEe-H09xSayW6RA" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sEGckIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sEGclYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sEJf4IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEJf4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEJf4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEJf44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEJf5IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sEJf5YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEJf5oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEJf54WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEJf6IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEJf6YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEGckYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sEGckoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sEGck4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEGclIWmEe-H09xSayW6RA" x="149" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sESCwIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sESCxYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sEVGEIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEVGEYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEVGEoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEVGE4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEVGFIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sEVtIIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEVtIYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEVtIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEVtI4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEVtJIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sESCwYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sESCwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sESCw4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sESCxIWmEe-H09xSayW6RA" x="273" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sEe3EIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sEe3FYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sEgsQIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEgsQYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEgsQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEgsQ4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEgsRIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sEgsRYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEgsRoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEgsR4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEgsSIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEgsSYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEe3EYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sEe3EoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sEe3E4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEe3FIWmEe-H09xSayW6RA" x="397" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sEoBAIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sEoBBYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sEqdQIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEqdQYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEqdQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEqdQ4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEqdRIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sEqdRYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEqdRoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sEqdR4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sEqdSIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEqdSYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sEoBAYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sEoBAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sEoBA4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sEoBBIWmEe-H09xSayW6RA" x="521" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sE01UIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sE1cYIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sE5t0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sE5t0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sE5t0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sE5t04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sE5t1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sE5t1YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sE5t1oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sE5t14WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sE5t2IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sE5t2YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sE01UYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sE01UoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sE01U4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sE01VIWmEe-H09xSayW6RA" x="645" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sFCQsIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sFC3wIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sFFUAIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFFUAYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sFFUAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sFFUA4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFFUBIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sFFUBYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFFUBoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sFFUB4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sFFUCIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFFUCYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFCQsYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sFCQsoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sFCQs4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFCQtIWmEe-H09xSayW6RA" x="769" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sFQ6MIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sFQ6NYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sFTWcIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFTWcYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sFTWcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sFTWc4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFTWdIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sFT9gIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFT9gYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sFT9goWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sFT9g4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFT9hIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFQ6MYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sFQ6MoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sFQ6M4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFQ6NIWmEe-H09xSayW6RA" x="893" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sFeVkIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sFe8oIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sFgx0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFgx0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sFgx0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sFgx04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFgx1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sFgx1YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFgx1oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sFgx14WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sFgx2IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFgx2YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFeVkYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sFeVkoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sFeVk4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFeVlIWmEe-H09xSayW6RA" x="1017" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sFxQgIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sFxQhYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sF0T0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sF0T0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sF0T0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sF0T04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sF0T1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sF064IWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sF064YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sF064oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sF0644WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sF065IWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sFxQgYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sFxQgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sFxQg4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFxQhIWmEe-H09xSayW6RA" x="1141" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sF_6AIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sF_6BYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sGCWQIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGCWQYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGCWQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGCWQ4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGCWRIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sGCWRYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGCWRoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGCWR4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGCWSIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGCWSYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sF_6AYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sF_6AoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sF_6A4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sF_6BIWmEe-H09xSayW6RA" x="1265" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sGJrAIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sGKSEIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sGNVYIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGNVYYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGNVYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGNVY4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.11/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGNVZIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sGNVZYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGNVZoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGNVZ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGNVaIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.11/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGN8cIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGJrAYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sGJrAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sGJrA4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.11"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGJrBIWmEe-H09xSayW6RA" x="1389" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sGV4QIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sGV4RYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sGYUgIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGYUgYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGYUgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGYUg4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.12/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGYUhIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sGY7kIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGY7kYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGY7koWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGY7k4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.12/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGY7lIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGV4QYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sGV4QoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sGV4Q4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGV4RIWmEe-H09xSayW6RA" x="1513" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sGrPcIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sGrPdYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sGu50IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGu50YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGu50oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGu504WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.13/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGu51IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sGu51YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGu51oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sGu514WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sGu52IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.13/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGu52YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sGrPcYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sGrPcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sGrPc4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.13"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGrPdIWmEe-H09xSayW6RA" x="1637" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sG548IWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sG6gAIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sG88QIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sG88QYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sG88QoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sG88Q4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.14/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sG88RIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sG9jUIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sG9jUYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sG9jUoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sG9jU4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.14/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sG9jVIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sG548YWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sG548oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sG5484WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.14"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sG549IWmEe-H09xSayW6RA" x="1761" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sHJJgIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sHJJhYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sHMM0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHMM0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHMM0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHMM04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.15/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHMM1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sHMz4IWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHMz4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHMz4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHMz44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.15/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHMz5IWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHJJgYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sHJJgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sHJJg4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.15"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHJJhIWmEe-H09xSayW6RA" x="1885" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sHWk4IWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sHWk5YWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sHZBIIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHZBIYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHZBIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHZBI4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.16/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHZBJIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sHZBJYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHZBJoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHZBJ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHZBKIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.16/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHZBKYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHWk4YWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sHWk4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sHWk44WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.16"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHWk5IWmEe-H09xSayW6RA" x="2009" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sHhkAIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sHhkBYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sHjZMIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHjZMYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHjZMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHjZM4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.17/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHjZNIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sHjZNYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHjZNoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHjZN4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHjZOIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.17/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHjZOYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHhkAYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sHhkAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sHhkA4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.17"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHhkBIWmEe-H09xSayW6RA" x="2133" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sHtxQIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sHtxRYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sHxboIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHxboYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHxbooWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHxbo4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.18/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxbpIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sHxbpYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHxbpoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sHxbp4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sHxbqIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.18/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHxbqYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sHtxQYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sHtxQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sHtxQ4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.18"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHtxRIWmEe-H09xSayW6RA" x="2257" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sH9B0IWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sH9o4IWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sIAFIIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIAFIYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIAFIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIAFI4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.19/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIAFJIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sIAsMIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIAsMYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIAsMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIAsM4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.19/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIAsNIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sH9B0YWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sH9B0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sH9B04WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.19"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH9B1IWmEe-H09xSayW6RA" x="2381" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sIUOMIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sIUONYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sIWqcIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIWqcYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIWqcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIWqc4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.20/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIWqdIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sIWqdYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIWqdoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIWqd4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIWqeIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.20/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIWqeYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIUOMYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sIUOMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sIUOM4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.20"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIUONIWmEe-H09xSayW6RA" x="2505" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sIhCgIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sIhChYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sIkF0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIkF0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIkF0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIkF04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.21/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIkF1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sIkF1YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIkF1oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIkF14WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIkF2IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.21/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIkF2YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIhCgYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sIhCgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sIhCg4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.21"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIhChIWmEe-H09xSayW6RA" x="2629" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sIvsAIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sIwTEIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sIyvUIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIyvUYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIyvUoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIyvU4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.22/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIyvVIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sIyvVYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIyvVoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sIyvV4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sIyvWIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.22/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIyvWYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sIvsAYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sIvsAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sIvsA4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.22"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIvsBIWmEe-H09xSayW6RA" x="2753" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sI9HYIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sI9HZYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sJAKsIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJAKsYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJAKsoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJAKs4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.23/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJAKtIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sJAxwIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJAxwYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJAxwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJAxw4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.23/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJAxxIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sI9HYYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sI9HYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sI9HY4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.23"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sI9HZIWmEe-H09xSayW6RA" x="2877" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sJONIIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sJONJYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sJQpYIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJQpYYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJQpYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJQpY4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.24/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJQpZIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sJQpZYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJQpZoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJQpZ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJQpaIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.24/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJQpaYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJONIYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sJONIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sJONI4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.24"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJONJIWmEe-H09xSayW6RA" x="3001" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sJbBcIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sJbBdYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sJddsIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJddsYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJddsoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJdds4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.25/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJddtIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sJddtYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJddtoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJddt4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJdduIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.25/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJdduYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJbBcYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sJbBcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sJbBc4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.25"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJbBdIWmEe-H09xSayW6RA" x="3125" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sJn1wIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sJoc0IWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sJq5EIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJq5EYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJq5EoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJq5E4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.26/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJq5FIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sJq5FYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJq5FoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJq5F4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJq5GIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.26/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJq5GYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJn1wYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sJn1woWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sJn1w4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.26"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJn1xIWmEe-H09xSayW6RA" x="3249" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sJ0qEIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sJ0qFYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sJ3tYIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJ3tYYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJ3tYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJ3tY4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.27/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJ3tZIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sJ3tZYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJ3tZoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sJ3tZ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sJ3taIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.27/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJ3taYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sJ0qEYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sJ0qEoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sJ0qE4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.27"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJ0qFIWmEe-H09xSayW6RA" x="3373" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sKCsgIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sKDTkIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sKFIwIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKFIwYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKFIwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKFIw4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.28/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKFIxIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sKFIxYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKFIxoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKFIx4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKFIyIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.28/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKFIyYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKCsgYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sKCsgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sKCsg4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.28"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKCshIWmEe-H09xSayW6RA" x="3497" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sKQH4IWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sKQH5YWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sKR9EIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKR9EYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKR9EoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKR9E4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.29/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKR9FIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sKSkIIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKSkIYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKSkIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKSkI4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.29/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKSkJIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKQH4YWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sKQH4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sKQH44WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.29"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKQH5IWmEe-H09xSayW6RA" x="3621" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sKeKUIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sKeKVYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sKgmkIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKgmkYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKgmkoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKgmk4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.30/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKgmlIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sKgmlYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKgmloWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKgml4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKgmmIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.30/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKgmmYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKeKUYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sKeKUoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sKeKU4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.30"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKeKVIWmEe-H09xSayW6RA" x="3745" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sKweMIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sKweNYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sKzhgIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKzhgYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKzhgoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKzhg4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.31/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKzhhIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sKzhhYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKzhhoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sKzhh4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sKzhiIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.31/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKzhiYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sKweMYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sKweMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sKweM4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.31"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKweNIWmEe-H09xSayW6RA" x="3869" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sK_uwIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sK_uxYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sLCLAIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLCLAYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLCLAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLCLA4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.32/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLCLBIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sLCLBYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLCLBoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLCLB4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLCLCIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.32/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLCLCYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sK_uwYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sK_uwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sK_uw4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.32"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sK_uxIWmEe-H09xSayW6RA" x="3993" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sLNKIIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sLNKJYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sLPmYIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLPmYYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLPmYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLPmY4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.33/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLPmZIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sLPmZYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLPmZoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLPmZ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLPmaIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.33/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLPmaYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLNKIYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sLNKIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sLNKI4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.33"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLNKJIWmEe-H09xSayW6RA" x="4117" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sLbzoIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sLbzpYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sLeP4IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLeP4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLeP4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLeP44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.34/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLeP5IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sLe28IWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLe28YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLe28oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLe284WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.34/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLe29IWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLbzoYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sLbzooWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sLbzo4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.34"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLbzpIWmEe-H09xSayW6RA" x="4241" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sLrEMIWmEe-H09xSayW6RA" type="3495">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sLrENYWmEe-H09xSayW6RA" type="5168"/>
+                      <children xmi:type="notation:Node" xmi:id="_sLtgcIWmEe-H09xSayW6RA" type="3018">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLtgcYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLtgcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLtgc4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:LogMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.35/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLtgdIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sLtgdYWmEe-H09xSayW6RA" type="3019">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLtgdoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sLtgd4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sLtgeIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:LogMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.35/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLtgeYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sLrEMYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sLrEMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sLrEM4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:LogMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.35"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLrENIWmEe-H09xSayW6RA" x="4365" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sL1cQIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sL1cRYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sL3RcIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sL3RcYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sL3RcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sL3Rc4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.36/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sL3RdIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sL34gIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sL34gYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sL34goWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sL34g4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.36/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sL34hIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sL1cQYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sL1cQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sL1cQ4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.36"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sL1cRIWmEe-H09xSayW6RA" x="4489" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sMCQkIWmEe-H09xSayW6RA" type="3597">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sMCQlYWmEe-H09xSayW6RA" type="5191"/>
+                      <children xmi:type="notation:Node" xmi:id="_sMHwIIWmEe-H09xSayW6RA" type="3598">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sMHwIYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sMHwIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sMHwI4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PayloadFactoryMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.37/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sMHwJIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sMHwJYWmEe-H09xSayW6RA" type="3599">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sMHwJoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sMHwJ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sMHwKIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PayloadFactoryMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.37/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sMHwKYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sMCQkYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sMCQkoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sMCQk4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PayloadFactoryMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.37"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sMCQlIWmEe-H09xSayW6RA" x="4613" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sODCwIWmEe-H09xSayW6RA" type="3516">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sODCxYWmEe-H09xSayW6RA" type="5183"/>
+                      <children xmi:type="notation:Node" xmi:id="_sOHUMIWmEe-H09xSayW6RA" type="3100">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOHUMYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sOHUMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sOHUM4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:HeaderMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.38/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOHUNIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sOHUNYWmEe-H09xSayW6RA" type="3101">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOHUNoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sOHUN4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sOHUOIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:HeaderMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.38/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOHUOYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sODCwYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sODCwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sODCw4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:HeaderMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.38"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sODCxIWmEe-H09xSayW6RA" x="4737" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sOS6YIWmEe-H09xSayW6RA" type="3742">
+                      <children xmi:type="notation:Node" xmi:id="_sOXy4IWmEe-H09xSayW6RA" type="3743">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOXy4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sOXy4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sOXy44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:CallMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOXy5IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sOXy5YWmEe-H09xSayW6RA" type="3744">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOXy5oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sOXy54WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sOXy6IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:CallMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOXy6YWmEe-H09xSayW6RA" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sOXy6oWmEe-H09xSayW6RA" type="3745">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOXy64WmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sOXy7IWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sOXy7YWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOXy7oWmEe-H09xSayW6RA"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sOXy74WmEe-H09xSayW6RA" type="3746">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_sOXy9IWmEe-H09xSayW6RA" type="7047">
+                          <children xmi:type="notation:Node" xmi:id="_sOo4oIWmEe-H09xSayW6RA" type="3660">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_sOpfsIWmEe-H09xSayW6RA" type="5165"/>
+                            <children xmi:type="notation:Node" xmi:id="_sOu_QIWmEe-H09xSayW6RA" type="3661">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOu_QYWmEe-H09xSayW6RA"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_sOu_QoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_sOu_Q4WmEe-H09xSayW6RA"/>
+                              <element xmi:type="esb:NamedEndpointInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOu_RIWmEe-H09xSayW6RA"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOo4oYWmEe-H09xSayW6RA"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_sOo4ooWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_sOo4o4WmEe-H09xSayW6RA"/>
+                            <element xmi:type="esb:NamedEndpoint" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOo4pIWmEe-H09xSayW6RA" x="5" y="103"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_sOXy9YWmEe-H09xSayW6RA" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOXy8IWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sOXy8YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sOXy8oWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:MediatorFlow" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOXy84WmEe-H09xSayW6RA"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sOS6YYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sOS6YoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sOS6Y4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:CallMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sOS6ZIWmEe-H09xSayW6RA" x="4861" y="38" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sPAFAIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sPAFBYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sPB6MIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPB6MYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPB6MoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPB6M4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.40/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPB6NIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sPB6NYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPB6NoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPB6N4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPB6OIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.40/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPB6OYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPAFAYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sPAFAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sPAFA4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.40"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPAFBIWmEe-H09xSayW6RA" x="5071" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sPMSQIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sPMSRYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sPOugIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPOugYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPOugoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPOug4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.41/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPOuhIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sPPVkIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPPVkYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPPVkoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPPVk4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.41/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPPVlIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPMSQYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sPMSQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sPMSQ4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.41"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPMSRIWmEe-H09xSayW6RA" x="5195" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sPcJ4IWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sPcJ5YWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sPd_EIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPd_EYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPd_EoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPd_E4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.42/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPd_FIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sPemIIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPemIYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPemIoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPemI4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.42/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPemJIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPcJ4YWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sPcJ4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sPcJ44WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.42"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPcJ5IWmEe-H09xSayW6RA" x="5319" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sPqzYIWmEe-H09xSayW6RA" type="3495">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sPracIWmEe-H09xSayW6RA" type="5168"/>
+                      <children xmi:type="notation:Node" xmi:id="_sPudwIWmEe-H09xSayW6RA" type="3018">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPudwYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPudwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPudw4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:LogMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.43/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPudxIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sPudxYWmEe-H09xSayW6RA" type="3019">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPudxoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sPudx4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sPudyIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:LogMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.43/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPudyYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sPqzYYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sPqzYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sPqzY4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:LogMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.43"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sPqzZIWmEe-H09xSayW6RA" x="5443" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sP6D8IWmEe-H09xSayW6RA" type="3494">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sP6rAIWmEe-H09xSayW6RA" type="5129"/>
+                      <children xmi:type="notation:Node" xmi:id="_sQGRMIWmEe-H09xSayW6RA" type="3010">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sQGRMYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sQGRMoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sQGRM4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:FilterMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sQGRNIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sQGRNYWmEe-H09xSayW6RA" type="3534">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sQGRNoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sQGRN4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sQGROIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:FilterMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sQGROYWmEe-H09xSayW6RA"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sQGROoWmEe-H09xSayW6RA" type="3011">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sQGRO4WmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sQGRPIWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sQGRPYWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:FilterMediatorPassOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@passOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sQGRPoWmEe-H09xSayW6RA" x="80" y="-29"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sQGRP4WmEe-H09xSayW6RA" type="3012">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sQGRQIWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sQGRQYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sQGRQoWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:FilterMediatorFailOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@failOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sQGRQ4WmEe-H09xSayW6RA" x="80" y="11"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sQGRRIWmEe-H09xSayW6RA" type="3531">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sQGRRYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sQGRRoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sQGRR4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:FilterContainer" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@filterContainer"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sQGRSIWmEe-H09xSayW6RA"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sP6D8YWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sP6D8oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sP6D84WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:FilterMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sP6D9IWmEe-H09xSayW6RA" x="5567" y="38" width="170" height="130"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sRDTcIWmEe-H09xSayW6RA" type="3739">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sRDTdYWmEe-H09xSayW6RA" type="5209"/>
+                      <children xmi:type="notation:Node" xmi:id="_sRIzAIWmEe-H09xSayW6RA" type="3740">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRIzAYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRIzAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRIzA4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:RespondMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.45/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRIzBIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sRIzBYWmEe-H09xSayW6RA" type="3741">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRIzBoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRIzB4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRIzCIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:RespondMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.45/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRIzCYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRDTcYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sRDTcoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sRDTc4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:RespondMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.45"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRDTdIWmEe-H09xSayW6RA" x="5806" y="38" width="84" height="115"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_sD1W1oWmEe-H09xSayW6RA" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD1W0YWmEe-H09xSayW6RA"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_sD1W0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_sD1W04WmEe-H09xSayW6RA"/>
+                  <element xmi:type="esb:MediatorFlow" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD1W1IWmEe-H09xSayW6RA"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD0vwYWmEe-H09xSayW6RA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_sD0vwoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_sD0vw4WmEe-H09xSayW6RA"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD0vxIWmEe-H09xSayW6RA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_sD0vxYWmEe-H09xSayW6RA" type="3488">
+                <children xmi:type="notation:Node" xmi:id="_sD194IWmEe-H09xSayW6RA" type="3530">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_sD2k8IWmEe-H09xSayW6RA" type="7019">
+                    <children xmi:type="notation:Node" xmi:id="_sRPgsIWmEe-H09xSayW6RA" type="3739">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sRPgtYWmEe-H09xSayW6RA" type="5209"/>
+                      <children xmi:type="notation:Node" xmi:id="_sRRV4IWmEe-H09xSayW6RA" type="3740">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRRV4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRRV4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRRV44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:RespondMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRRV5IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sRRV5YWmEe-H09xSayW6RA" type="3741">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRRV5oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRRV54WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRRV6IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:RespondMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRRV6YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRPgsYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sRPgsoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sRPgs4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:RespondMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRPgtIWmEe-H09xSayW6RA" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sRYqoIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sRYqpYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sRaf0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRaf0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRaf0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRaf04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRaf1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sRaf1YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRaf1oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRaf14WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRaf2IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRaf2YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRYqoYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sRYqooWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sRYqo4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRYqpIWmEe-H09xSayW6RA" x="149" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sRmGAIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sRmtEIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sRoiQIWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRoiQYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRoiQoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRoiQ4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRoiRIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sRoiRYWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRoiRoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sRoiR4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sRoiSIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRoiSYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sRmGAYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sRmGAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sRmGA4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sRmGBIWmEe-H09xSayW6RA" x="273" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sR6PEIWmEe-H09xSayW6RA" type="3597">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sR6PFYWmEe-H09xSayW6RA" type="5191"/>
+                      <children xmi:type="notation:Node" xmi:id="_sR9SYIWmEe-H09xSayW6RA" type="3598">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sR9SYYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sR9SYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sR9SY4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PayloadFactoryMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sR9SZIWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sR9SZYWmEe-H09xSayW6RA" type="3599">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sR9SZoWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sR9SZ4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sR9SaIWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PayloadFactoryMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sR9SaYWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sR6PEYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sR6PEoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sR6PE4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PayloadFactoryMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sR6PFIWmEe-H09xSayW6RA" x="397" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sSmLkIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sSmLlYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sSp18IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sSp18YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sSp18oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sSp184WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSp19IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sSqdAIWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sSqdAYWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sSqdAoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sSqdA4WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.4/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSqdBIWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sSmLkYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sSmLkoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sSmLk4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.4"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSmLlIWmEe-H09xSayW6RA" x="521" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sS5tkIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sS6UoIWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sS8J0IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sS8J0YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sS8J0oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sS8J04WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sS8J1IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sS8w4IWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sS8w4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sS8w4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sS8w44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.5/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sS8w5IWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sS5tkYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sS5tkoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sS5tk4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.5"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sS5tlIWmEe-H09xSayW6RA" x="645" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_sTN2oIWmEe-H09xSayW6RA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_sTN2pYWmEe-H09xSayW6RA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_sTQS4IWmEe-H09xSayW6RA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sTQS4YWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sTQS4oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sTQS44WmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.6/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sTQS5IWmEe-H09xSayW6RA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_sTQS5YWmEe-H09xSayW6RA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_sTQS5oWmEe-H09xSayW6RA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_sTQS54WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_sTQS6IWmEe-H09xSayW6RA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.6/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sTQS6YWmEe-H09xSayW6RA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_sTN2oYWmEe-H09xSayW6RA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_sTN2ooWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_sTN2o4WmEe-H09xSayW6RA"/>
+                      <element xmi:type="esb:PropertyMediator" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.6"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sTN2pIWmEe-H09xSayW6RA" x="769" y="38" width="84" height="115"/>
+                    </children>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD194YWmEe-H09xSayW6RA"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_sD194oWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_sD1944WmEe-H09xSayW6RA"/>
+                  <element xmi:type="esb:MediatorFlow" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD195IWmEe-H09xSayW6RA"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_sD0vxoWmEe-H09xSayW6RA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_sD0vx4WmEe-H09xSayW6RA" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_sD0vyIWmEe-H09xSayW6RA"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sD0vyYWmEe-H09xSayW6RA"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_sDzhq4WmEe-H09xSayW6RA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_sDzhrIWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_sDzhrYWmEe-H09xSayW6RA"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDzhroWmEe-H09xSayW6RA"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_sDxFYYWmEe-H09xSayW6RA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_sDxFYoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_sDxFY4WmEe-H09xSayW6RA"/>
+            <element xmi:type="esb:APIResource" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDxFZIWmEe-H09xSayW6RA" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="PartialPayoffAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDqXsYWmEe-H09xSayW6RA" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_pssgUYWmEe-H09xSayW6RA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pssgUoWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_pssgU4WmEe-H09xSayW6RA"/>
+    <element xmi:type="esb:EsbServer" href="PartialPayoffAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pssgVIWmEe-H09xSayW6RA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_pr-uoYWmEe-H09xSayW6RA"/>
+  <element xmi:type="esb:EsbDiagram" href="PartialPayoffAPI.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_sUdMwIWmEe-H09xSayW6RA" type="4001" source="_sQGRP4WmEe-H09xSayW6RA" target="_sQnOkIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUdMwYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@failOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUdMwoWmEe-H09xSayW6RA" points="[11, -8, -5, 3]$[10, -7, -6, 4]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUg3IIWmEe-H09xSayW6RA" type="4001" source="_sQGROoWmEe-H09xSayW6RA" target="_sQ2fIIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUg3IYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@passOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUg3IoWmEe-H09xSayW6RA" points="[11, -8, -5, 3]$[10, -7, -6, 4]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUj6cIWmEe-H09xSayW6RA" type="4001" source="_sDy6lYWmEe-H09xSayW6RA" target="_sD-gwIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUj6cYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUj6coWmEe-H09xSayW6RA" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUmWsIWmEe-H09xSayW6RA" type="4001" source="_sD-gxYWmEe-H09xSayW6RA" target="_sEJf4IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUmWsYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUmWsoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUoL4IWmEe-H09xSayW6RA" type="4001" source="_sEJf5YWmEe-H09xSayW6RA" target="_sEVGEIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUoL4YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUoL4oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUqoIIWmEe-H09xSayW6RA" type="4001" source="_sEVtIIWmEe-H09xSayW6RA" target="_sEgsQIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUqoIYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUqoIoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUtEYIWmEe-H09xSayW6RA" type="4001" source="_sEgsRYWmEe-H09xSayW6RA" target="_sEqdQIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUtEYYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUtEYoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUvgoIWmEe-H09xSayW6RA" type="4001" source="_sEqdRYWmEe-H09xSayW6RA" target="_sE5t0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUvgoYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUvgooWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUxV0IWmEe-H09xSayW6RA" type="4001" source="_sE5t1YWmEe-H09xSayW6RA" target="_sFFUAIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUxV0YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUxV0oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sUzyEIWmEe-H09xSayW6RA" type="4001" source="_sFFUBYWmEe-H09xSayW6RA" target="_sFTWcIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sUzyEYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sUzyEoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sU2OUIWmEe-H09xSayW6RA" type="4001" source="_sFT9gIWmEe-H09xSayW6RA" target="_sFgx0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sU2OUYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sU2OUoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sU4DgIWmEe-H09xSayW6RA" type="4001" source="_sFgx1YWmEe-H09xSayW6RA" target="_sF0T0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sU4DgYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sU4DgoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sU6fwIWmEe-H09xSayW6RA" type="4001" source="_sF064IWmEe-H09xSayW6RA" target="_sGCWQIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sU6fwYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sU6fwoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sU88AIWmEe-H09xSayW6RA" type="4001" source="_sGCWRYWmEe-H09xSayW6RA" target="_sGNVYIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sU88AYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sU88AoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sU-xMIWmEe-H09xSayW6RA" type="4001" source="_sGNVZYWmEe-H09xSayW6RA" target="_sGYUgIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sU-xMYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.11/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sU-xMoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVBNcIWmEe-H09xSayW6RA" type="4001" source="_sGY7kIWmEe-H09xSayW6RA" target="_sGu50IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVBNcYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.12/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVBNcoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVDCoIWmEe-H09xSayW6RA" type="4001" source="_sGu51YWmEe-H09xSayW6RA" target="_sG88QIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVDCoYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.13/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVDCooWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVE30IWmEe-H09xSayW6RA" type="4001" source="_sG9jUIWmEe-H09xSayW6RA" target="_sHMM0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVE30YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.14/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVE30oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVHUEIWmEe-H09xSayW6RA" type="4001" source="_sHMz4IWmEe-H09xSayW6RA" target="_sHZBIIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVHUEYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.15/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVHUEoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVKXYIWmEe-H09xSayW6RA" type="4001" source="_sHZBJYWmEe-H09xSayW6RA" target="_sHjZMIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVKXYYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.16/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVKXYoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVMzoIWmEe-H09xSayW6RA" type="4001" source="_sHjZNYWmEe-H09xSayW6RA" target="_sHxboIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVMzoYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.17/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVMzooWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVPP4IWmEe-H09xSayW6RA" type="4001" source="_sHxbpYWmEe-H09xSayW6RA" target="_sIAFIIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVPP4YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.18/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVPP4oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVRsIIWmEe-H09xSayW6RA" type="4001" source="_sIAsMIWmEe-H09xSayW6RA" target="_sIWqcIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVRsIYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.19/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVRsIoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVUIYIWmEe-H09xSayW6RA" type="4001" source="_sIWqdYWmEe-H09xSayW6RA" target="_sIkF0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVUIYYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.20/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVUIYoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVV9kIWmEe-H09xSayW6RA" type="4001" source="_sIkF1YWmEe-H09xSayW6RA" target="_sIyvUIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVV9kYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.21/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVV9koWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVYZ0IWmEe-H09xSayW6RA" type="4001" source="_sIyvVYWmEe-H09xSayW6RA" target="_sJAKsIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVYZ0YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.22/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVYZ0oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVa2EIWmEe-H09xSayW6RA" type="4001" source="_sJAxwIWmEe-H09xSayW6RA" target="_sJQpYIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVa2EYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.23/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVa2EoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVdSUIWmEe-H09xSayW6RA" type="4001" source="_sJQpZYWmEe-H09xSayW6RA" target="_sJddsIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVdSUYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.24/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVdSUoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVfukIWmEe-H09xSayW6RA" type="4001" source="_sJddtYWmEe-H09xSayW6RA" target="_sJq5EIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVfukYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.25/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVfukoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVhjwIWmEe-H09xSayW6RA" type="4001" source="_sJq5FYWmEe-H09xSayW6RA" target="_sJ3tYIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVhjwYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.26/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVhjwoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVkAAIWmEe-H09xSayW6RA" type="4001" source="_sJ3tZYWmEe-H09xSayW6RA" target="_sKFIwIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVkAAYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.27/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVkAAoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVmcQIWmEe-H09xSayW6RA" type="4001" source="_sKFIxYWmEe-H09xSayW6RA" target="_sKR9EIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVmcQYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.28/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVmcQoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVoRcIWmEe-H09xSayW6RA" type="4001" source="_sKSkIIWmEe-H09xSayW6RA" target="_sKgmkIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVoRcYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.29/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVoRcoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVqGoIWmEe-H09xSayW6RA" type="4001" source="_sKgmlYWmEe-H09xSayW6RA" target="_sKzhgIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVqGoYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.30/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVqGooWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVsi4IWmEe-H09xSayW6RA" type="4001" source="_sKzhhYWmEe-H09xSayW6RA" target="_sLCLAIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVsi4YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.31/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVsi4oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVu_IIWmEe-H09xSayW6RA" type="4001" source="_sLCLBYWmEe-H09xSayW6RA" target="_sLPmYIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVu_IYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.32/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVu_IoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVxbYIWmEe-H09xSayW6RA" type="4001" source="_sLPmZYWmEe-H09xSayW6RA" target="_sLeP4IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVxbYYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.33/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVxbYoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sVz3oIWmEe-H09xSayW6RA" type="4001" source="_sLe28IWmEe-H09xSayW6RA" target="_sLtgcIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sVz3oYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.34/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVz3ooWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sV268IWmEe-H09xSayW6RA" type="4001" source="_sLtgdYWmEe-H09xSayW6RA" target="_sL3RcIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sV268YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.35/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sV268oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sV9BkIWmEe-H09xSayW6RA" type="4001" source="_sL34gIWmEe-H09xSayW6RA" target="_sMHwIIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sV9BkYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.36/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sV9BkoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sV_d0IWmEe-H09xSayW6RA" type="4001" source="_sMHwJYWmEe-H09xSayW6RA" target="_sOHUMIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sV_d0YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.37/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sV_d0oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWB6EIWmEe-H09xSayW6RA" type="4001" source="_sOHUNYWmEe-H09xSayW6RA" target="_sOXy4IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWB6EYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.38/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWB6EoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWDvQIWmEe-H09xSayW6RA" type="4001" source="_sOXy5YWmEe-H09xSayW6RA" target="_sPB6MIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWDvQYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWDvQoWmEe-H09xSayW6RA" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWFkcIWmEe-H09xSayW6RA" type="4001" source="_sPB6NYWmEe-H09xSayW6RA" target="_sPOugIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWFkcYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.40/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWFkcoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWIAsIWmEe-H09xSayW6RA" type="4001" source="_sPPVkIWmEe-H09xSayW6RA" target="_sPd_EIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWIAsYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.41/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWIAsoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWJ14IWmEe-H09xSayW6RA" type="4001" source="_sPemIIWmEe-H09xSayW6RA" target="_sPudwIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWJ14YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.42/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWJ14oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWM5MIWmEe-H09xSayW6RA" type="4001" source="_sPudxYWmEe-H09xSayW6RA" target="_sQGRMIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWM5MYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.43/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWM5MoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWPVcIWmEe-H09xSayW6RA" type="4001" source="_sQGRNYWmEe-H09xSayW6RA" target="_sRIzAIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWPVcYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.44/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWPVcoWmEe-H09xSayW6RA" points="[-11, 0, 0, 0]$[-5, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWSYwIWmEe-H09xSayW6RA" type="4001" source="_sRRV5YWmEe-H09xSayW6RA" target="_sDzhpYWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWSYwYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWSYwoWmEe-H09xSayW6RA" points="[-11, 1, 80, 0]$[-85, 0, 6, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWVcEIWmEe-H09xSayW6RA" type="4001" source="_sRaf1YWmEe-H09xSayW6RA" target="_sRRV4IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWVcEYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWVcEoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWX4UIWmEe-H09xSayW6RA" type="4001" source="_sRoiRYWmEe-H09xSayW6RA" target="_sRaf0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWX4UYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWX4UoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWaUkIWmEe-H09xSayW6RA" type="4001" source="_sR9SZYWmEe-H09xSayW6RA" target="_sRoiQIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWaUkYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWaUkoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWcw0IWmEe-H09xSayW6RA" type="4001" source="_sSqdAIWmEe-H09xSayW6RA" target="_sR9SYIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWcw0YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.4/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWcw0oWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWfNEIWmEe-H09xSayW6RA" type="4001" source="_sS8w4IWmEe-H09xSayW6RA" target="_sSp18IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWfNEYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.5/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWfNEoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sWhCQIWmEe-H09xSayW6RA" type="4001" source="_sTQS5YWmEe-H09xSayW6RA" target="_sS8J0IWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sWhCQYWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer/@mediatorFlow/@children.6/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sWhCQoWmEe-H09xSayW6RA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_seFp4IWmEe-H09xSayW6RA" type="4001" source="_sOXy6oWmEe-H09xSayW6RA" target="_sOu_QIWmEe-H09xSayW6RA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_seFp4YWmEe-H09xSayW6RA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="PartialPayoffAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.39/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_seFp4oWmEe-H09xSayW6RA" points="[2, 9, -31, -110]$[31, 114, -2, -5]"/>
+  </edges>
+</notation:Diagram>

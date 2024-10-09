@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/{country}/api/v1/accounts" name="retrieveCardsbyAccountNo" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/cards/{includeCapture}/{includeRestricted}">
+        <inSequence>
+            <property expression="get-property('uri.var.country')" name="country" scope="default" type="STRING"/>
+            <property expression="get-property('quey.param.includeCapture')" name="includeCapture" scope="default" type="STRING"/>
+            <property expression="get-property('query.param.includeRestricted}')" name="includeRestricted" scope="default" type="STRING"/>
+            <log level="full">
+                <property name="Request" value="Incoming API Request"/>
+                <property expression="get-property('uri.var.country')" name="country"/>
+                <property expression="get-property('quey.param.includeCapture')" name="includeCapture"/>
+                <property expression="get-property('query.param.includeRestricted}')" name="includeRestricted"/>
+            </log>
+            <header name="Accept" scope="transport" value="application/json"/>
+            <header scope="default"/>
+            <header scope="default"/>
+            <header scope="default"/>
+            <send>
+                <endpoint>
+                    <http uri-template="{BACKEND_URL}">
+                        <timeout>
+                            <duration>10000</duration>
+                            <responseAction>discard</responseAction>
+                        </timeout>
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>1</progressionFactor>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

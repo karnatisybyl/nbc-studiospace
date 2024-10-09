@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/PartialPayoffAPI" name="PartialPayoffAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.bankCode)" name="bankCode" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.channel)" name="channel" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.externalBatchNumber)" name="externalBatchNumber" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.externalReferenceNo)" name="externalReferenceNo" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.externalSystemAuditTrailNumber)" name="externalSystemAuditTrailNumber" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.localDateTimeText)" name="localDateTimeText" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.originalReferenceNo)" name="originalReferenceNo" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.overridenWarnings)" name="overridenWarnings" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.postingDateText)" name="postingDateText" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.reason.comment)" name="reason_comment" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.reason.reasonCode)" name="reason_reasonCode" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.serviceCode)" name="serviceCode" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.sessionTicket)" name="sessionTicket" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.supervisorContext.primaryPassword)" name="supervisorContext_primaryPassword" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.supervisorContext.userId)" name="supervisorContext_userId" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.transactionBranch)" name="transactionBranch" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.userId)" name="userId" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.userReferenceNumber)" name="userReferenceNumber" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.sessionContext.valueDateText)" name="valueDateText" scope="default" type="STRING"/>
+            <!-- Store loan and payment-related properties -->
+            <property expression="json-eval($.partialPayOff.loanAccountId)" name="loanAccountId" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.accountID)" name="accountID" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.loanAcctAmount)" name="loanAcctAmount" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.GLccyShortName)" name="GLccyShortName" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.penaltyMethod)" name="penaltyMethod" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.isInterestChargeAppliedTillDate)" name="isInterestChargeAppliedTillDate" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.rescheduleType)" name="rescheduleType" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.narrative)" name="narrative" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.flgInstallmentType)" name="flgInstallmentType" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.transactionType)" name="transactionType" scope="default" type="STRING"/>
+            <!-- Store extended reference DTO properties -->
+            <property expression="json-eval($.partialPayOff.extendedReferenceNoDTO.extRefNo1)" name="extRefNo1" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.extendedReferenceNoDTO.extRefNo2)" name="extRefNo2" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.extendedReferenceNoDTO.extRefNo3)" name="extRefNo3" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.extendedReferenceNoDTO.extRefNo4)" name="extRefNo4" scope="default" type="STRING"/>
+            <property expression="json-eval($.partialPayOff.extendedReferenceNoDTO.refCustomerNo)" name="refCustomerNo" scope="default" type="STRING"/>
+            <!-- Optionally, log the stored properties -->
+            <log level="full">
+                <property name="Stored Properties" value="Request properties have been stored successfully."/>
+            </log>
+            <payloadFactory media-type="xml">
+                <format>
+                    <soapenv:Envelope xmlns:con="http://context.app.fcr.iflex.com" xmlns:dto="http://dto.savings.deposit.app.fcr.iflex.com" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spi="http://spi.loans.app.fcr.iflex.com">
+                        <soapenv:Header/>
+                        <soapenv:Body>
+                            <spi:partialPayOff>
+                                <spi:sessionContext>
+                                    <con:bankCode>15</con:bankCode>
+                                    <con:channel>NHM</con:channel>
+                                    <con:externalBatchNumber>0</con:externalBatchNumber>
+                                    <con:externalReferenceNo/>
+                                    <con:externalSystemAuditTrailNumber>1</con:externalSystemAuditTrailNumber>
+                                    <con:localDateTimeText/>
+                                    <con:originalReferenceNo/>
+                                    <con:overridenWarnings/>
+                                    <con:postingDateText/>
+                                    <con:reason>
+                                        <con:comment/>
+                                        <con:reasonCode>0</con:reasonCode>
+                                    </con:reason>
+                                    <con:serviceCode/>
+                                    <con:sessionTicket/>
+                                    <con:supervisorContext>
+                                        <con:primaryPassword/>
+                                        <con:userId/>
+                                    </con:supervisorContext>
+                                    <con:transactionBranch>1</con:transactionBranch>
+                                    <con:userId>IFE</con:userId>
+                                    <con:userReferenceNumber/>
+                                    <con:valueDateText/>
+                                </spi:sessionContext>
+                                <spi:loanAccountId>001450000942</spi:loanAccountId>
+                                <spi:accountID>001101109125</spi:accountID>
+                                <spi:loanAcctAmount>2000</spi:loanAcctAmount>
+                                <spi:GLccyShortName/>
+                                <spi:penaltyMethod>3</spi:penaltyMethod>
+                                <spi:isInterestChargeAppliedTillDate>0</spi:isInterestChargeAppliedTillDate>
+                                <spi:rescheduleType>T</spi:rescheduleType>
+                                <spi:narrative>Loan Partial Payoff Test</spi:narrative>
+                                <spi:flgInstallmentType>0</spi:flgInstallmentType>
+                                <spi:transactionType>0</spi:transactionType>
+                                <spi:extendedReferenceNoDTO>
+                                    <dto:extRefNo1>123</dto:extRefNo1>
+                                    <dto:extRefNo2>234</dto:extRefNo2>
+                                    <dto:extRefNo3>345</dto:extRefNo3>
+                                    <dto:extRefNo4>456</dto:extRefNo4>
+                                    <dto:refCustomerNo/>
+                                </spi:extendedReferenceNoDTO>
+                            </spi:partialPayOff>
+                        </soapenv:Body>
+                    </soapenv:Envelope>
+                </format>
+                <args/>
+            </payloadFactory>
+            <header name="soapAction" scope="transport" value=""/>
+            <call>
+                <endpoint key="PartialPayoff_EP"/>
+            </call>
+            <!--   <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <property name="Content-Type" scope="axis2" type="STRING" value="application/json"/>
+                <property name="epResponse" expression="json-eval($)" scope="default" type="STRING"/>
+<log level="custom">
+                <property name="epResponse" expression="json-eval($)" scope="default" type="STRING"/>
+
+</log>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then>
+                <enrich>
+                <source clone="true" type="property" property="epResponse"/>
+                <target type="body"/>
+                </enrich>
+                </then>
+                <else>
+                    <enrich>
+                <source clone="true" type="property" property="epResponse"/>
+                <target type="body"/>
+                </enrich>
+                </else>
+            </filter>-->
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <property expression="get-property('ERROR_CODE')" name="ERROR_CODE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_MESSAGE')" name="ERROR_MESSAGE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_DETAIL')" name="ERROR_DETAIL" scope="default" type="STRING"/>
+            <payloadFactory media-type="json">
+                <format>
+            {
+                "errorCode": "$1",
+                "errorMessage": "$2",
+                "statusCode": "$3"
+            }
+        </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
+                    <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+                    <arg evaluator="xml" expression="get-property('ERROR_DETAIL')"/>
+                </args>
+            </payloadFactory>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

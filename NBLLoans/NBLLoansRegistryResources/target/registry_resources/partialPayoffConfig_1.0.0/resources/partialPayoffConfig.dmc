@@ -1,0 +1,86 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_bankCode = Number(inputroot.data.Envelope.Body.partialPayOff.sessionContext.bankCode);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_channel = inputroot.data.Envelope.Body.partialPayOff.sessionContext.channel;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_externalBatchNumber = Number(inputroot.data.Envelope.Body.partialPayOff.sessionContext.externalBatchNumber);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_externalReferenceNo = inputroot.data.Envelope.Body.partialPayOff.sessionContext.externalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_externalSystemAuditTrailNumber = Number(inputroot.data.Envelope.Body.partialPayOff.sessionContext.externalSystemAuditTrailNumber);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_localDateTimeText = inputroot.data.Envelope.Body.partialPayOff.sessionContext.localDateTimeText;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_originalReferenceNo = inputroot.data.Envelope.Body.partialPayOff.sessionContext.originalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_overridenWarnings = inputroot.data.Envelope.Body.partialPayOff.sessionContext.overridenWarnings;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_postingDateText = inputroot.data.Envelope.Body.partialPayOff.sessionContext.postingDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_reason.con_comment = inputroot.data.Envelope.Body.partialPayOff.sessionContext.reason.comment;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_reason.con_reasonCode = Number(inputroot.data.Envelope.Body.partialPayOff.sessionContext.reason.reasonCode);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_serviceCode = inputroot.data.Envelope.Body.partialPayOff.sessionContext.serviceCode;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_sessionTicket = inputroot.data.Envelope.Body.partialPayOff.sessionContext.sessionTicket;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_supervisorContext.con_primaryPassword = inputroot.data.Envelope.Body.partialPayOff.sessionContext.supervisorContext.primaryPassword;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_supervisorContext.con_userId = inputroot.data.Envelope.Body.partialPayOff.sessionContext.supervisorContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_transactionBranch = Number(inputroot.data.Envelope.Body.partialPayOff.sessionContext.transactionBranch);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_userId = inputroot.data.Envelope.Body.partialPayOff.sessionContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_userReferenceNumber = inputroot.data.Envelope.Body.partialPayOff.sessionContext.userReferenceNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_sessionContext.con_valueDateText = inputroot.data.Envelope.Body.partialPayOff.sessionContext.valueDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_loanAccountId = inputroot.data.Envelope.Body.partialPayOff.loanAccountId;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_accountID = inputroot.data.Envelope.Body.partialPayOff.accountID;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_loanAcctAmount = inputroot.data.Envelope.Body.partialPayOff.loanAcctAmount;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_GLccyShortName = inputroot.data.Envelope.Body.partialPayOff.GLccyShortName;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_penaltyMethod = Number(inputroot.data.Envelope.Body.partialPayOff.penaltyMethod);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_isInterestChargeAppliedTillDate = Number(inputroot.data.Envelope.Body.partialPayOff.isInterestChargeAppliedTillDate);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_rescheduleType = inputroot.data.Envelope.Body.partialPayOff.rescheduleType;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_narrative = inputroot.data.Envelope.Body.partialPayOff.narrative;
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_flgInstallmentType = Number(inputroot.data.Envelope.Body.partialPayOff.flgInstallmentType);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_transactionType = Number(inputroot.data.Envelope.Body.partialPayOff.transactionType);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO.dto_extRefNo1 = Number(inputroot.data.Envelope.Body.partialPayOff.extendedReferenceNoDTO.extRefNo1);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO.dto_extRefNo2 = Number(inputroot.data.Envelope.Body.partialPayOff.extendedReferenceNoDTO.extRefNo2);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO.dto_extRefNo3 = Number(inputroot.data.Envelope.Body.partialPayOff.extendedReferenceNoDTO.extRefNo3);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO.dto_extRefNo4 = Number(inputroot.data.Envelope.Body.partialPayOff.extendedReferenceNoDTO.extRefNo4);
+outputsoapenv_Envelope.soapenv_Body.spi_partialPayOff.spi_extendedReferenceNoDTO.dto_refCustomerNo = inputroot.data.Envelope.Body.partialPayOff.extendedReferenceNoDTO.refCustomerNo;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

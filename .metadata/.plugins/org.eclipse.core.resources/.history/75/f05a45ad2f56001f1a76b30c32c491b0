@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/doChargeDeductionApi" name="doChargeDeductionApi" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <log level="custom">
+                <property expression="json-eval($)" name="doChargeDeductionApiRequest"/>
+            </log>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:bankCode)" name="bankCode" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:channel)" name="channel" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:externalBatchNumber)" name="externalBatchNumber" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:externalReferenceNo)" name="externalReferenceNo" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:externalSystemAuditTrailNumber)" name="externalSystemAuditTrailNumber" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:transactionBranch)" name="transactionBranch" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:context.con:userId)" name="userId" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:casaAccountNo)" name="casaAccountNo" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:casaAmount)" name="casaAmount" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:casaNarration)" name="casaNarration" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:flgForceDebit)" name="flgForceDebit" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:flgGlSplitRequired)" name="flgGlSplitRequired" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:glDetails.dto:item.dto:glAccountNo)" name="glAccountNo" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:glDetails.dto:item.dto:glAmount)" name="glAmount" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:glDetails.dto:item.dto:glBranchCode)" name="glBranchCode" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:glDetails.dto:item.dto:glCurrency)" name="glCurrency" scope="default" type="STRING"/>
+            <property expression="json-eval($.soapenv.Body.spi:doChargeDeduction.spi:deductionPlanDetailsDTO.dto:glDetails.dto:item.dto:glNarration)" name="glNarration" scope="default" type="STRING"/>
+            <!-- Construct the SOAP payload using the stored properties -->
+            <payloadFactory media-type="xml">
+                <format>
+                    <soapenv:Envelope xmlns:con="http://context.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spi="http://spi.loans.app.fcr.iflex.com">
+                        <soapenv:Header/>
+                        <soapenv:Body>
+                            <spi:doChargeDeduction>
+                                <spi:context>
+                                    <con:bankCode>$1</con:bankCode>
+                                    <con:channel>$2</con:channel>
+                                    <con:externalBatchNumber>$3</con:externalBatchNumber>
+                                    <con:externalReferenceNo>$4</con:externalReferenceNo>
+                                    <con:externalSystemAuditTrailNumber>$5</con:externalSystemAuditTrailNumber>
+                                    <con:transactionBranch>$6</con:transactionBranch>
+                                    <con:userId>$7</con:userId>
+                                    <!-- Additional context elements -->
+                                </spi:context>
+                                <spi:deductionPlanDetailsDTO>
+                                    <dto:casaAccountNo>$8</dto:casaAccountNo>
+                                    <dto:casaAmount>$9</dto:casaAmount>
+                                    <dto:casaNarration>$10</dto:casaNarration>
+                                    <dto:flgForceDebit>$11</dto:flgForceDebit>
+                                    <dto:flgGlSplitRequired>$12</dto:flgGlSplitRequired>
+                                    <dto:glDetails>
+                                        <dto:item>
+                                            <dto:glAccountNo>$13</dto:glAccountNo>
+                                            <dto:glAmount>$14</dto:glAmount>
+                                            <dto:glBranchCode>$15</dto:glBranchCode>
+                                            <dto:glCurrency>$16</dto:glCurrency>
+                                            <dto:glNarration>$17</dto:glNarration>
+                                        </dto:item>
+                                    </dto:glDetails>
+                                </spi:deductionPlanDetailsDTO>
+                            </spi:doChargeDeduction>
+                        </soapenv:Body>
+                    </soapenv:Envelope>
+                </format>
+                <args>
+                    <arg value="get-property('bankCode')"/>
+                    <arg value="get-property('channel')"/>
+                    <arg value="get-property('externalBatchNumber')"/>
+                    <arg value="get-property('externalReferenceNo')"/>
+                    <arg value="get-property('externalSystemAuditTrailNumber')"/>
+                    <arg value="get-property('transactionBranch')"/>
+                    <arg value="get-property('userId')"/>
+                    <arg value="get-property('casaAccountNo')"/>
+                    <arg value="get-property('casaAmount')"/>
+                    <arg value="get-property('casaNarration')"/>
+                    <arg value="get-property('flgForceDebit')"/>
+                    <arg value="get-property('flgGlSplitRequired')"/>
+                    <arg value="get-property('glAccountNo')"/>
+                    <arg value="get-property('glAmount')"/>
+                    <arg value="get-property('glBranchCode')"/>
+                    <arg value="get-property('glCurrency')"/>
+                    <arg value="get-property('glNarration')"/>
+                </args>
+            </payloadFactory>
+            <log level="custom">
+                <property expression="$body" name="beforeEP"/>
+            </log>
+            <header name="soapAction" scope="transport" value=""/>
+            <call>
+                <endpoint key="PartialPayoff_EP"/>
+            </call>
+            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
+                <then/>
+                <else>
+                    <payloadFactory media-type="json">
+                        <format>
+                            {
+                                "errorCode": "$1",
+                                "errorDesc": "$2",
+                                "errorMsg": "$3"
+                            }
+                        </format>
+                        <args>
+                            <arg evaluator="xml" expression="//*[local-name()='errorCode']"/>
+                            <arg evaluator="xml" expression="//*[local-name()='message']"/>
+                            <arg evaluator="xml" expression="//*[local-name()='faultstring']"/>
+                        </args>
+                    </payloadFactory>
+                </else>
+            </filter>
+            <!-- Set the response content type to JSON -->
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <property name="Content-Type" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <property expression="get-property('ERROR_CODE')" name="ERROR_CODE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_MESSAGE')" name="ERROR_MESSAGE" scope="default" type="STRING"/>
+            <property expression="get-property('ERROR_DETAIL')" name="ERROR_DETAIL" scope="default" type="STRING"/>
+            <payloadFactory media-type="json">
+                <format>
+            {
+                "errorCode": "$1",
+                "errorMessage": "$2",
+                "statusCode": "$3"
+            }
+        </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
+                    <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+                    <arg value="get-property('ERROR_DETAIL')"/>
+                </args>
+            </payloadFactory>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

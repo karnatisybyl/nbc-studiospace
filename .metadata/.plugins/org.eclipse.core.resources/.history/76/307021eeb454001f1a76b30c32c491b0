@@ -1,0 +1,11 @@
+<endpoint xmlns="http://ws.apache.org/ns/synapse" name="PartialPayoff_EP">
+	<address uri="http://tz-uat-app-fcr1.tz.af.absa.local:9080/services/services/LoansPaymentManagerSpi">
+		<suspendOnFailure>
+			<progressionFactor>1.0</progressionFactor>
+		</suspendOnFailure>
+		<markForSuspension>
+			<retriesBeforeSuspension>0</retriesBeforeSuspension>
+			<retryDelay>0</retryDelay>
+		</markForSuspension>
+	</address>
+</endpoint>

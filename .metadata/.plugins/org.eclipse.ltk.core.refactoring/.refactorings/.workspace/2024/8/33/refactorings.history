@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;NBLLoansConfigs/src/main/synapse-config/api/doChargeDeductionApi.xml&apos;" deleteContents="false" description="Delete resource &apos;NBLLoansConfigs/src/main/synapse-config/api/doChargeDeductionApi.xml&apos;" element1="/NBLLoansConfigs/src/main/synapse-config/api/doChargeDeductionApi.xml" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1723536345800"/>
+</session>

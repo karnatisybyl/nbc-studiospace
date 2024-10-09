@@ -1,0 +1,223 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "method" : {
+      "id" : "http://wso2jsonschema.org/method",
+      "type" : "string"
+    },
+    "url" : {
+      "id" : "http://wso2jsonschema.org/url",
+      "type" : "string"
+    },
+    "headers" : {
+      "id" : "http://wso2jsonschema.org/headers",
+      "type" : "object",
+      "properties" : {
+        "Content-Type" : {
+          "id" : "http://wso2jsonschema.org/headers/Content-Type",
+          "type" : "string"
+        },
+        "Accept" : {
+          "id" : "http://wso2jsonschema.org/headers/Accept",
+          "type" : "string"
+        },
+        "Authorization" : {
+          "id" : "http://wso2jsonschema.org/headers/Authorization",
+          "type" : "string"
+        }
+      }
+    },
+    "data" : {
+      "id" : "http://wso2jsonschema.org/data",
+      "type" : "object",
+      "properties" : {
+        "Envelope" : {
+          "id" : "http://wso2jsonschema.org/data/Envelope",
+          "type" : "object",
+          "properties" : {
+            "Header" : {
+              "id" : "http://wso2jsonschema.org/data/Envelope/Header",
+              "type" : "null"
+            },
+            "Body" : {
+              "id" : "http://wso2jsonschema.org/data/Envelope/Body",
+              "type" : "object",
+              "properties" : {
+                "partialPayOff" : {
+                  "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff",
+                  "type" : "object",
+                  "properties" : {
+                    "sessionContext" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext",
+                      "type" : "object",
+                      "properties" : {
+                        "bankCode" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/bankCode",
+                          "type" : "string"
+                        },
+                        "channel" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/channel",
+                          "type" : "string"
+                        },
+                        "externalBatchNumber" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalBatchNumber",
+                          "type" : "string"
+                        },
+                        "externalReferenceNo" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalReferenceNo",
+                          "type" : "string"
+                        },
+                        "externalSystemAuditTrailNumber" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/externalSystemAuditTrailNumber",
+                          "type" : "string"
+                        },
+                        "localDateTimeText" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/localDateTimeText",
+                          "type" : "string"
+                        },
+                        "originalReferenceNo" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/originalReferenceNo",
+                          "type" : "string"
+                        },
+                        "overridenWarnings" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/overridenWarnings",
+                          "type" : "string"
+                        },
+                        "postingDateText" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/postingDateText",
+                          "type" : "string"
+                        },
+                        "reason" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason",
+                          "type" : "object",
+                          "properties" : {
+                            "comment" : {
+                              "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/comment",
+                              "type" : "string"
+                            },
+                            "reasonCode" : {
+                              "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/reason/reasonCode",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "serviceCode" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/serviceCode",
+                          "type" : "string"
+                        },
+                        "sessionTicket" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/sessionTicket",
+                          "type" : "string"
+                        },
+                        "supervisorContext" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext",
+                          "type" : "object",
+                          "properties" : {
+                            "primaryPassword" : {
+                              "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/primaryPassword",
+                              "type" : "string"
+                            },
+                            "userId" : {
+                              "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/supervisorContext/userId",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "transactionBranch" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/transactionBranch",
+                          "type" : "string"
+                        },
+                        "userId" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userId",
+                          "type" : "string"
+                        },
+                        "userReferenceNumber" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/userReferenceNumber",
+                          "type" : "string"
+                        },
+                        "valueDateText" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/sessionContext/valueDateText",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "loanAccountId" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAccountId",
+                      "type" : "string"
+                    },
+                    "accountID" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/accountID",
+                      "type" : "string"
+                    },
+                    "loanAcctAmount" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/loanAcctAmount",
+                      "type" : "number"
+                    },
+                    "GLccyShortName" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/GLccyShortName",
+                      "type" : "string"
+                    },
+                    "penaltyMethod" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/penaltyMethod",
+                      "type" : "string"
+                    },
+                    "isInterestChargeAppliedTillDate" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/isInterestChargeAppliedTillDate",
+                      "type" : "string"
+                    },
+                    "rescheduleType" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/rescheduleType",
+                      "type" : "string"
+                    },
+                    "narrative" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/narrative",
+                      "type" : "string"
+                    },
+                    "flgInstallmentType" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/flgInstallmentType",
+                      "type" : "string"
+                    },
+                    "transactionType" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/transactionType",
+                      "type" : "string"
+                    },
+                    "extendedReferenceNoDTO" : {
+                      "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO",
+                      "type" : "object",
+                      "properties" : {
+                        "extRefNo1" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo1",
+                          "type" : "string"
+                        },
+                        "extRefNo2" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo2",
+                          "type" : "string"
+                        },
+                        "extRefNo3" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo3",
+                          "type" : "string"
+                        },
+                        "extRefNo4" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/extRefNo4",
+                          "type" : "string"
+                        },
+                        "refCustomerNo" : {
+                          "id" : "http://wso2jsonschema.org/data/Envelope/Body/partialPayOff/extendedReferenceNoDTO/refCustomerNo",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
