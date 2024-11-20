@@ -1,0 +1,568 @@
+[2024-10-25 11:56:24,338]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/wso2carbon/wso2mi-4.2.0
+[2024-10-25 11:56:24,823]  INFO {org.wso2.config.mapper.ConfigParser} - Applying configurations with deployment configurations
+[2024-10-25 11:56:37,732]  INFO {RuntimeStatisticCollector} - Statistics Entry Expiration time set to 136000 milliseconds
+[2024-10-25 11:56:38,841]  INFO {EndpointDeployer} - Endpoint named 'putCardStatus_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/putCardStatus_EP_1.0.0/putCardStatus_EP-1.0.0.xml
+[2024-10-25 11:56:38,905]  INFO {EndpointDeployer} - Endpoint named 'getCardLimit_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/getCardLimit_EP_1.0.0/getCardLimit_EP-1.0.0.xml
+[2024-10-25 11:56:38,908]  INFO {EndpointDeployer} - Endpoint named 'resetCardPin_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/resetCardPin_EP_1.0.0/resetCardPin_EP-1.0.0.xml
+[2024-10-25 11:56:38,910]  INFO {EndpointDeployer} - Endpoint named 'retrieveCardStatus_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardStatus_EP_1.0.0/retrieveCardStatus_EP-1.0.0.xml
+[2024-10-25 11:56:38,911]  INFO {EndpointDeployer} - Endpoint named 'activateCard_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/activateCard_EP_1.0.0/activateCard_EP-1.0.0.xml
+[2024-10-25 11:56:38,913]  INFO {EndpointDeployer} - Endpoint named 'statusOfApiByCountry_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/statusOfApiByCountry_EP_1.0.0/statusOfApiByCountry_EP-1.0.0.xml
+[2024-10-25 11:56:38,916]  INFO {EndpointDeployer} - Endpoint named 'retrieveCardsByActNo_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardsByActNo_EP_1.0.0/retrieveCardsByActNo_EP-1.0.0.xml
+[2024-10-25 11:56:38,917]  INFO {EndpointDeployer} - Endpoint named 'patchCardLimit' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/patchCardLimit_1.0.0/patchCardLimit-1.0.0.xml
+[2024-10-25 11:56:38,935]  INFO {SequenceDeployer} - Sequence named 'CardManagenetFaultSeq' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/CardManagenetFaultSeq_1.0.0/CardManagenetFaultSeq-1.0.0.xml
+[2024-10-25 11:56:39,027]  INFO {API} - {api:resetCardPin} Initializing API: resetCardPin
+[2024-10-25 11:56:39,028]  INFO {Axis2SynapseEnvironment} - Continuation call is set to true
+[2024-10-25 11:56:39,031]  INFO {APIDeployer} - API named 'resetCardPin' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/resetCardPin_1.0.0/resetCardPin-1.0.0.xml
+[2024-10-25 11:56:39,035]  INFO {API} - {api:Activatecard} Initializing API: Activatecard
+[2024-10-25 11:56:39,036]  INFO {APIDeployer} - API named 'Activatecard' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/Activatecard_1.0.0/Activatecard-1.0.0.xml
+[2024-10-25 11:56:39,117]  INFO {API} - {api:retrieveCardStatus} Initializing API: retrieveCardStatus
+[2024-10-25 11:56:39,118]  INFO {APIDeployer} - API named 'retrieveCardStatus' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardStatus_1.0.0/retrieveCardStatus-1.0.0.xml
+[2024-10-25 11:56:39,206]  INFO {API} - {api:getCardLimit} Initializing API: getCardLimit
+[2024-10-25 11:56:39,207]  INFO {APIDeployer} - API named 'getCardLimit' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/getCardLimit_1.0.0/getCardLimit-1.0.0.xml
+[2024-10-25 11:56:39,210]  INFO {API} - {api:statusOfApiByCountry} Initializing API: statusOfApiByCountry
+[2024-10-25 11:56:39,211]  INFO {APIDeployer} - API named 'statusOfApiByCountry' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/statusOfApiByCountry_1.0.0/statusOfApiByCountry-1.0.0.xml
+[2024-10-25 11:56:39,222]  INFO {API} - {api:retrieveCardsbyAccountNo} Initializing API: retrieveCardsbyAccountNo
+[2024-10-25 11:56:39,222]  INFO {APIDeployer} - API named 'retrieveCardsbyAccountNo' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846598739CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardsbyAccountNo_1.0.0/retrieveCardsbyAccountNo-1.0.0.xml
+[2024-10-25 11:56:39,223]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CardManagementCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:39,224]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CardManagementCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:39,230]  INFO {SequenceDeployer} - Sequence named 'secondaryFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599224ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/secondaryFlow_1.0.0/secondaryFlow-1.0.0.xml
+[2024-10-25 11:56:39,231]  INFO {SequenceDeployer} - Sequence named 'firstSubFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599224ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/firstSubFlow_1.0.0/firstSubFlow-1.0.0.xml
+[2024-10-25 11:56:39,231]  INFO {SequenceDeployer} - Sequence named 'secondSubFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599224ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/secondSubFlow_1.0.0/secondSubFlow-1.0.0.xml
+[2024-10-25 11:56:39,232]  INFO {SequenceDeployer} - Sequence named 'ErrorHandling' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599224ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/ErrorHandling_1.0.0/ErrorHandling-1.0.0.xml
+[2024-10-25 11:56:39,317]  INFO {API} - {api:business-logic} Initializing API: business-logic
+[2024-10-25 11:56:39,317]  INFO {APIDeployer} - API named 'business-logic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599224ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/business-logic_1.0.0/business-logic-1.0.0.xml
+[2024-10-25 11:56:39,318]  INFO {CappDeployer} - Successfully Deployed Carbon Application : ContentBasedRoutingApplicationCompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:39,318]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : ContentBasedRoutingApplicationCompositeExporter_1.0.0.car
+[2024-10-25 11:56:39,409]  INFO {EndpointDeployer} - Endpoint named 'LoansCollateralManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599318LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoansCollateralManager_EP_1.0.0/LoansCollateralManager_EP-1.0.0.xml
+[2024-10-25 11:56:40,108] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2024-10-25 11:56:40,204]  INFO {API} - {api:LoanCollateralManagerAPI:v1.0.0} Initializing API: LoanCollateralManagerAPI:v1.0.0
+[2024-10-25 11:56:40,323]  INFO {APIDeployer} - API named 'LoanCollateralManagerAPI:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846599318LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoanCollateralManagerAPI_1.0.0_1.0.0/LoanCollateralManagerAPI_1.0.0-1.0.0.xml
+[2024-10-25 11:56:40,323]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanCollateralManagerSpiCompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:40,324]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanCollateralManagerSpiCompositeExporter_1.0.0.car
+[2024-10-25 11:56:40,424] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2024-10-25 11:56:40,426]  INFO {EndpointDeployer} - Endpoint named 'LoanScheduleManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600324LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManager_EP_1.0.0/LoanScheduleManager_EP-1.0.0.xml
+[2024-10-25 11:56:40,428] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600421LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2024-10-25 11:56:40,534]  INFO {API} - {api:LoanScheduleManagerApi} Initializing API: LoanScheduleManagerApi
+[2024-10-25 11:56:40,607]  INFO {APIDeployer} - API named 'LoanScheduleManagerApi' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600324LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManagerApi_1.0.0/LoanScheduleManagerApi-1.0.0.xml
+[2024-10-25 11:56:40,607]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanScheduleManagerCompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:40,608]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanScheduleManagerCompositeExporter_1.0.0.car
+[2024-10-25 11:56:40,623]  INFO {LocalEntryDeployer} - LocalEntry named 'loanscustomerImagelocalentry' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600608LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/loanscustomerImagelocalentry_1.0.0/loanscustomerImagelocalentry-1.0.0.xml
+[2024-10-25 11:56:40,625]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerImageManager_Ep' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600608LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoansCustomerImageManager_Ep_1.0.0/LoansCustomerImageManager_Ep-1.0.0.xml
+[2024-10-25 11:56:40,632]  INFO {SequenceDeployer} - Sequence named 'LoansCustomerImageManagerOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600608LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoansCustomerImageManagerOutSequence_1.0.0/LoansCustomerImageManagerOutSequence-1.0.0.xml
+[2024-10-25 11:56:40,705]  INFO {SequenceDeployer} - Sequence named 'LoaansCustomerImageManagerFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600608LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoaansCustomerImageManagerFaultSequence_1.0.0/LoaansCustomerImageManagerFaultSequence-1.0.0.xml
+[2024-10-25 11:56:40,815] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600808LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2024-10-25 11:56:41,125]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageManagerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600608LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/InquireCustomerImageManagerInSequence_1.0.0/InquireCustomerImageManagerInSequence-1.0.0.xml
+[2024-10-25 11:56:41,230]  INFO {API} - {api:LoansCustomerImageManagerAPI} Initializing API: LoansCustomerImageManagerAPI
+[2024-10-25 11:56:41,244]  INFO {APIDeployer} - API named 'LoansCustomerImageManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846600608LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/InquireCustomerImage_1.0.0/InquireCustomerImage-1.0.0.xml
+[2024-10-25 11:56:41,244]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:41,245]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:41,317] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601244LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_inputSchema_1.0.0/resources/InquireResponseMapper_inputSchema.json
+[2024-10-25 11:56:41,318] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601244LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_xsltStyleSheet_1.0.0/resources/InquireResponseMapper_xsltStyleSheet.xml
+[2024-10-25 11:56:41,409]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601244LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_EP_1.0.0/LoansCustomerManager_EP-1.0.0.xml
+[2024-10-25 11:56:41,523] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601513LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2024-10-25 11:56:41,634]  INFO {API} - {api:LoansCustomerManager:v1.0.0} Initializing API: LoansCustomerManager:v1.0.0
+[2024-10-25 11:56:41,725]  INFO {APIDeployer} - API named 'LoansCustomerManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601244LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_1.0.0_1.0.0/LoansCustomerManager_1.0.0-1.0.0.xml
+[2024-10-25 11:56:41,725]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerManagerCompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:41,726]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerManagerCompositeExporter_1.0.0.car
+[2024-10-25 11:56:41,805] ERROR {EndpointDeployer} - Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed. org.apache.synapse.commons.resolvers.ResolverException: File Property variable could not be found
+	at org.apache.synapse.commons.resolvers.FilePropertyResolver.resolve(FilePropertyResolver.java:59)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpointDefinition(AddressEndpointFactory.java:121)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpoint(AddressEndpointFactory.java:88)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.createEndpointWithName(EndpointFactory.java:143)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.getEndpointFromElement(EndpointFactory.java:80)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:56)
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:205)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifactType(SynapseAppDeployer.java:1129)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifacts(SynapseAppDeployer.java:139)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deployCarbonApps(CappDeployer.java:188)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deploy(CappDeployer.java:145)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+	at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:135)
+	at org.wso2.micro.core.CarbonAxisConfigurator.deployServices(CarbonAxisConfigurator.java:530)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.invokeRegisteredDeployers(AppDeployerServiceComponent.java:227)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.activate(AppDeployerServiceComponent.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:235)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.ntask.core.internal.TasksDSComponent.activate(TasksDSComponent.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+[2024-10-25 11:56:41,805] ERROR {AbstractSynapseArtifactDeployer} - Deployment of the Synapse Artifact from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed! org.apache.synapse.deployers.SynapseArtifactDeploymentException: Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed.
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.handleSynapseArtifactDeploymentError(AbstractSynapseArtifactDeployer.java:488)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:82)
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:205)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifactType(SynapseAppDeployer.java:1129)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifacts(SynapseAppDeployer.java:139)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deployCarbonApps(CappDeployer.java:188)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deploy(CappDeployer.java:145)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+	at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:135)
+	at org.wso2.micro.core.CarbonAxisConfigurator.deployServices(CarbonAxisConfigurator.java:530)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.invokeRegisteredDeployers(AppDeployerServiceComponent.java:227)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.activate(AppDeployerServiceComponent.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:235)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.ntask.core.internal.TasksDSComponent.activate(TasksDSComponent.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+Caused by: org.apache.synapse.commons.resolvers.ResolverException: File Property variable could not be found
+	at org.apache.synapse.commons.resolvers.FilePropertyResolver.resolve(FilePropertyResolver.java:59)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpointDefinition(AddressEndpointFactory.java:121)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpoint(AddressEndpointFactory.java:88)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.createEndpointWithName(EndpointFactory.java:143)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.getEndpointFromElement(EndpointFactory.java:80)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:56)
+	... 73 more
+
+[2024-10-25 11:56:41,805]  INFO {AbstractSynapseArtifactDeployer} - The file has been backed up into : NO_BACKUP_ON_WORKER.INFO
+[2024-10-25 11:56:41,806] ERROR {AbstractSynapseArtifactDeployer} - Deployment of synapse artifact failed. Error reading /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed. org.apache.axis2.deployment.DeploymentException: Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed.
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:215)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifactType(SynapseAppDeployer.java:1129)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifacts(SynapseAppDeployer.java:139)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deployCarbonApps(CappDeployer.java:188)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deploy(CappDeployer.java:145)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+	at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:135)
+	at org.wso2.micro.core.CarbonAxisConfigurator.deployServices(CarbonAxisConfigurator.java:530)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.invokeRegisteredDeployers(AppDeployerServiceComponent.java:227)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.activate(AppDeployerServiceComponent.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:235)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.ntask.core.internal.TasksDSComponent.activate(TasksDSComponent.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+Caused by: org.apache.synapse.deployers.SynapseArtifactDeploymentException: Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed.
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.handleSynapseArtifactDeploymentError(AbstractSynapseArtifactDeployer.java:488)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:82)
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:205)
+	... 72 more
+Caused by: org.apache.synapse.commons.resolvers.ResolverException: File Property variable could not be found
+	at org.apache.synapse.commons.resolvers.FilePropertyResolver.resolve(FilePropertyResolver.java:59)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpointDefinition(AddressEndpointFactory.java:121)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpoint(AddressEndpointFactory.java:88)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.createEndpointWithName(EndpointFactory.java:143)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.getEndpointFromElement(EndpointFactory.java:80)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:56)
+	... 73 more
+
+[2024-10-25 11:56:41,807] ERROR {CappDeployer} - Error occurred while deploying the Carbon application: LoansManager-V1CompositeExporter_1.0.0.car. Reverting successfully deployed artifacts in the CApp. org.apache.axis2.deployment.DeploymentException: Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed.
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:227)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifactType(SynapseAppDeployer.java:1129)
+	at org.wso2.micro.integrator.initializer.deployment.synapse.deployer.SynapseAppDeployer.deployArtifacts(SynapseAppDeployer.java:139)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deployCarbonApps(CappDeployer.java:188)
+	at org.wso2.micro.integrator.initializer.deployment.application.deployer.CappDeployer.deploy(CappDeployer.java:145)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+	at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:135)
+	at org.wso2.micro.core.CarbonAxisConfigurator.deployServices(CarbonAxisConfigurator.java:530)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.invokeRegisteredDeployers(AppDeployerServiceComponent.java:227)
+	at org.wso2.micro.integrator.initializer.deployment.AppDeployerServiceComponent.activate(AppDeployerServiceComponent.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:235)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.micro.integrator.ntask.core.internal.TasksDSComponent.activate(TasksDSComponent.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+Caused by: org.apache.axis2.deployment.DeploymentException: Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed.
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:215)
+	... 72 more
+Caused by: org.apache.synapse.deployers.SynapseArtifactDeploymentException: Endpoint Deployment from the file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601725LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml : Failed.
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.handleSynapseArtifactDeploymentError(AbstractSynapseArtifactDeployer.java:488)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:82)
+	at org.apache.synapse.deployers.AbstractSynapseArtifactDeployer.deploy(AbstractSynapseArtifactDeployer.java:205)
+	... 72 more
+Caused by: org.apache.synapse.commons.resolvers.ResolverException: File Property variable could not be found
+	at org.apache.synapse.commons.resolvers.FilePropertyResolver.resolve(FilePropertyResolver.java:59)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpointDefinition(AddressEndpointFactory.java:121)
+	at org.apache.synapse.config.xml.endpoints.AddressEndpointFactory.createEndpoint(AddressEndpointFactory.java:88)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.createEndpointWithName(EndpointFactory.java:143)
+	at org.apache.synapse.config.xml.endpoints.EndpointFactory.getEndpointFromElement(EndpointFactory.java:80)
+	at org.apache.synapse.deployers.EndpointDeployer.deploySynapseArtifact(EndpointDeployer.java:56)
+	... 73 more
+
+[2024-10-25 11:56:41,807]  INFO {CappDeployer} - Undeploying Carbon Application : LoansManager-V1CompositeExporter_1.0.0...
+[2024-10-25 11:56:41,821]  INFO {CappDeployer} - Successfully undeployed Carbon Application : LoansManager-V1CompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:41,824]  INFO {EndpointDeployer} - Endpoint named 'LoanPayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601821LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/LoanPayInstalmentInAdvance_1.0.0/LoanPayInstalmentInAdvance-1.0.0.xml
+[2024-10-25 11:56:41,922] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601917LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2024-10-25 11:56:41,924]  INFO {API} - {api:PayInstalmentInAdvance} Initializing API: PayInstalmentInAdvance
+[2024-10-25 11:56:42,020]  INFO {APIDeployer} - API named 'PayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846601821LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInAdvance_1.0.0/PayInstalmentInAdvance-1.0.0.xml
+[2024-10-25 11:56:42,021]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:42,021]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:42,021]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:42,108]  INFO {EndpointDeployer} - Endpoint named 'LoansPaymentManagerEndpoint' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerEndpoint_1.0.0/LoansPaymentManagerEndpoint-1.0.0.xml
+[2024-10-25 11:56:42,120]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentOutSequence_1.0.0/LoansPaymentOutSequence-1.0.0.xml
+[2024-10-25 11:56:42,125]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentFaultSequence_1.0.0/LoansPaymentFaultSequence-1.0.0.xml
+[2024-10-25 11:56:42,320]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIslamic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIslamic_1.0.0/DoDisbursementProcessingForIslamic-1.0.0.xml
+[2024-10-25 11:56:42,427]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIBOCInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIBOCInSequence_1.0.0/DoDisbursementProcessingForIBOCInSequence-1.0.0.xml
+[2024-10-25 11:56:42,429]  INFO {SequenceDeployer} - Sequence named 'InquireDeductionDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/InquireDeductionDetailsInSequence_1.0.0/InquireDeductionDetailsInSequence-1.0.0.xml
+[2024-10-25 11:56:42,429]  INFO {API} - {api:LoansPaymentManagerAPI} Initializing API: LoansPaymentManagerAPI
+[2024-10-25 11:56:42,429]  INFO {APIDeployer} - API named 'LoansPaymentManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602021LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerAPI_1.0.0/LoansPaymentManagerAPI-1.0.0.xml
+[2024-10-25 11:56:42,430]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPaymentManagerCompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:42,430]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPaymentManagerCompositeExporter_1.0.0.car
+[2024-10-25 11:56:42,430]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:42,433]  INFO {EndpointDeployer} - Endpoint named 'PartialPayoff_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602430NBLLoansCompositeExporter_1.0.0-SNAPSHOT.car/PartialPayoff_EP_1.0.0/PartialPayoff_EP-1.0.0.xml
+[2024-10-25 11:56:42,522]  INFO {API} - {api:PartialPayoffAPI} Initializing API: PartialPayoffAPI
+[2024-10-25 11:56:42,523]  INFO {APIDeployer} - API named 'PartialPayoffAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602430NBLLoansCompositeExporter_1.0.0-SNAPSHOT.car/PartialPayoffAPI_1.0.0/PartialPayoffAPI-1.0.0.xml
+[2024-10-25 11:56:42,523]  INFO {CappDeployer} - Successfully Deployed Carbon Application : NBLLoansCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:42,523]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : NBLLoansCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:42,524]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:42,531]  INFO {LocalEntryDeployer} - LocalEntry named 'partialpayOffShema' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602523PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/partialpayOffShema_1.0.0/partialpayOffShema-1.0.0.xml
+[2024-10-25 11:56:42,532]  INFO {EndpointDeployer} - Endpoint named 'PayInstalment' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602523PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalment_1.0.0/PayInstalment-1.0.0.xml
+[2024-10-25 11:56:42,532]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602523PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInSequence_1.0.0/PayInstalmentInSequence-1.0.0.xml
+[2024-10-25 11:56:42,538]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602523PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentOutSequence_1.0.0/PayInstalmentOutSequence-1.0.0.xml
+[2024-10-25 11:56:42,606]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602523PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentFaultSequence_1.0.0/PayInstalmentFaultSequence-1.0.0.xml
+[2024-10-25 11:56:42,628]  INFO {API} - {api:PayInstalmentAPI} Initializing API: PayInstalmentAPI
+[2024-10-25 11:56:42,630]  INFO {APIDeployer} - API named 'PayInstalmentAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602523PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentAPI_1.0.0/PayInstalmentAPI-1.0.0.xml
+[2024-10-25 11:56:42,630]  INFO {CappDeployer} - Successfully Deployed Carbon Application : PayInstallmentCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:42,631]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:42,631]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:42,634]  INFO {EndpointDeployer} - Endpoint named 'IBM_MQ_CONNECTOR_REQUEST_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602630WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/IBM_MQ_CONNECTOR_REQUEST_EP_1.0.0/IBM_MQ_CONNECTOR_REQUEST_EP-1.0.0.xml
+[2024-10-25 11:56:42,635]  INFO {EndpointDeployer} - Endpoint named 'IBM_MQ_CONNECTOR_RESPONSE_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602630WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/IBM_MQ_CONNECTOR_RESPONSE_EP_1.0.0/IBM_MQ_CONNECTOR_RESPONSE_EP-1.0.0.xml
+[2024-10-25 11:56:42,640]  INFO {SequenceDeployer} - Sequence named 'FCCFT_FAULT_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602630WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_FAULT_SEQUENCE_1.0.0/FCCFT_FAULT_SEQUENCE-1.0.0.xml
+[2024-10-25 11:56:42,707]  INFO {SequenceDeployer} - Sequence named 'FCCFT_REQUEST_IN_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602630WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_REQUEST_IN_SEQUENCE_1.0.0/FCCFT_REQUEST_IN_SEQUENCE-1.0.0.xml
+[2024-10-25 11:56:42,708]  INFO {SequenceDeployer} - Sequence named 'FCCFT_RESPONSE_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602630WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_RESPONSE_SEQUENCE_1.0.0/FCCFT_RESPONSE_SEQUENCE-1.0.0.xml
+[2024-10-25 11:56:42,708]  INFO {API} - {api:FCCFTAPI} Initializing API: FCCFTAPI
+[2024-10-25 11:56:42,708]  INFO {APIDeployer} - API named 'FCCFTAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602630WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFTAPI_1.0.0/FCCFTAPI-1.0.0.xml
+[2024-10-25 11:56:42,709]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:42,709]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:42,709]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:42,909]  INFO {EndpointDeployer} - Endpoint named 'BillPaymentManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/BillPaymentManagerSpiSoapEP_1.0.0/BillPaymentManagerSpiSoapEP-1.0.0.xml
+[2024-10-25 11:56:42,910]  INFO {EndpointDeployer} - Endpoint named 'CurrencyRateManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CurrencyRateManagerSpiEP_1.0.0/CurrencyRateManagerSpiEP-1.0.0.xml
+[2024-10-25 11:56:42,911]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CustomerManagerSpiSoapEP_1.0.0/CustomerManagerSpiSoapEP-1.0.0.xml
+[2024-10-25 11:56:42,912]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositInstructionManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositInstructionManagerSpiSoapEP_1.0.0/DemandDepositInstructionManagerSpiSoapEP-1.0.0.xml
+[2024-10-25 11:56:42,913]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositMaintenanceSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositMaintenanceSpiEP_1.0.0/DemandDepositMaintenanceSpiEP-1.0.0.xml
+[2024-10-25 11:56:42,914]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositManagerSpiSoapEP_1.0.0/DemandDepositManagerSpiSoapEP-1.0.0.xml
+[2024-10-25 11:56:42,915]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositStatementManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositStatementManagerSpiEP_1.0.0/DemandDepositStatementManagerSpiEP-1.0.0.xml
+[2024-10-25 11:56:42,916]  INFO {SequenceDeployer} - Sequence named 'ActivateDeactivateAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ActivateDeactivateAccountInSequence_1.0.0/ActivateDeactivateAccountInSequence-1.0.0.xml
+[2024-10-25 11:56:42,917]  INFO {SequenceDeployer} - Sequence named 'AddCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddCustomerInSequence_1.0.0/AddCustomerInSequence-1.0.0.xml
+[2024-10-25 11:56:42,918]  INFO {SequenceDeployer} - Sequence named 'AddStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddStandingInstructionInSequence_1.0.0/AddStandingInstructionInSequence-1.0.0.xml
+[2024-10-25 11:56:42,918]  INFO {SequenceDeployer} - Sequence named 'ConvertAmountWithFromToCurrencyInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ConvertAmountWithFromToCurrencyInSequence_1.0.0/ConvertAmountWithFromToCurrencyInSequence-1.0.0.xml
+[2024-10-25 11:56:42,919]  INFO {SequenceDeployer} - Sequence named 'CreateNewAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CreateNewAccountInSequence_1.0.0/CreateNewAccountInSequence-1.0.0.xml
+[2024-10-25 11:56:42,920]  INFO {SequenceDeployer} - Sequence named 'DeleteStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DeleteStandingInstructionInSequence_1.0.0/DeleteStandingInstructionInSequence-1.0.0.xml
+[2024-10-25 11:56:42,921]  INFO {SequenceDeployer} - Sequence named 'DomesticTransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DomesticTransferFundsWithDRCRAmountInSequence_1.0.0/DomesticTransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2024-10-25 11:56:42,921]  INFO {SequenceDeployer} - Sequence named 'InquireBillWalletRtgsTxnsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireBillWalletRtgsTxnsInSequence_1.0.0/InquireBillWalletRtgsTxnsInSequence-1.0.0.xml
+[2024-10-25 11:56:42,922]  INFO {SequenceDeployer} - Sequence named 'InquireForMaintenanceInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireForMaintenanceInSequence_1.0.0/InquireForMaintenanceInSequence-1.0.0.xml
+[2024-10-25 11:56:42,923]  INFO {SequenceDeployer} - Sequence named 'InquireInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireInSequence_1.0.0/InquireInSequence-1.0.0.xml
+[2024-10-25 11:56:42,923]  INFO {SequenceDeployer} - Sequence named 'InquireListOfTransactionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireListOfTransactionInSequence_1.0.0/InquireListOfTransactionInSequence-1.0.0.xml
+[2024-10-25 11:56:42,924]  INFO {SequenceDeployer} - Sequence named 'ListCASAAccountDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ListCASAAccountDetailsInSequence_1.0.0/ListCASAAccountDetailsInSequence-1.0.0.xml
+[2024-10-25 11:56:42,925]  INFO {SequenceDeployer} - Sequence named 'MisCustDebitWithDRCRAmtDepDtlsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/MisCustDebitWithDRCRAmtDepDtlsInSequence_1.0.0/MisCustDebitWithDRCRAmtDepDtlsInSequence-1.0.0.xml
+[2024-10-25 11:56:42,925]  INFO {SequenceDeployer} - Sequence named 'ModifyStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ModifyStandingInstructionInSequence_1.0.0/ModifyStandingInstructionInSequence-1.0.0.xml
+[2024-10-25 11:56:42,926]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountInSequence_1.0.0/PayUtilityBillByAccountInSequence-1.0.0.xml
+[2024-10-25 11:56:42,926]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountTIPSInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountTIPSInSequence_1.0.0/PayUtilityBillByAccountTIPSInSequence-1.0.0.xml
+[2024-10-25 11:56:42,927]  INFO {SequenceDeployer} - Sequence named 'RequestChequeBookInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/RequestChequeBookInSequence_1.0.0/RequestChequeBookInSequence-1.0.0.xml
+[2024-10-25 11:56:42,928]  INFO {SequenceDeployer} - Sequence named 'TransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/TransferFundsWithDRCRAmountInSequence_1.0.0/TransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2024-10-25 11:56:42,928]  INFO {SequenceDeployer} - Sequence named 'UpdateAccountStatusForCASAInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/UpdateAccountStatusForCASAInSequence_1.0.0/UpdateAccountStatusForCASAInSequence-1.0.0.xml
+[2024-10-25 11:56:42,933]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCFCRFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCFCRFaultSequence_1.0.0/WSO2MINBCFCRFaultSequence-1.0.0.xml
+[2024-10-25 11:56:42,934]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCOutSequence_1.0.0/WSO2MINBCOutSequence-1.0.0.xml
+[2024-10-25 11:56:42,935]  INFO {API} - {api:FCRAPI} Initializing API: FCRAPI
+[2024-10-25 11:56:42,935]  INFO {APIDeployer} - API named 'FCRAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602709WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/FCRAPI_1.0.0/FCRAPI-1.0.0.xml
+[2024-10-25 11:56:42,935]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:42,936]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:42,936]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:43,057]  INFO {EndpointDeployer} - Endpoint named 'CustomerImageManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerImageManagerSpiEP_1.0.0/CustomerImageManagerSpiEP-1.0.0.xml
+[2024-10-25 11:56:43,104]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerManagerSpiEP_1.0.0/CustomerManagerSpiEP-1.0.0.xml
+[2024-10-25 11:56:43,106]  INFO {SequenceDeployer} - Sequence named 'AddCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddCustomerImageInSequence_1.0.0/AddCustomerImageInSequence-1.0.0.xml
+[2024-10-25 11:56:43,108]  INFO {SequenceDeployer} - Sequence named 'AddIndividualCorporateCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddIndividualCorporateCustomerInSequence_1.0.0/AddIndividualCorporateCustomerInSequence-1.0.0.xml
+[2024-10-25 11:56:43,122]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchInSequence_1.0.0/DoDedupCustomerSearchInSequence-1.0.0.xml
+[2024-10-25 11:56:43,123]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchOutSequence_1.0.0/DoDedupCustomerSearchOutSequence-1.0.0.xml
+[2024-10-25 11:56:43,128]  INFO {SequenceDeployer} - Sequence named 'FaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/FaultSequence_1.0.0/FaultSequence-1.0.0.xml
+[2024-10-25 11:56:43,128]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireCustomerImageInSequence_1.0.0/InquireCustomerImageInSequence-1.0.0.xml
+[2024-10-25 11:56:43,129]  INFO {SequenceDeployer} - Sequence named 'InquireIndivdualCorporateCustWithAddInfoInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireIndivdualCorporateCustWithAddInfoInSequence_1.0.0/InquireIndivdualCorporateCustWithAddInfoInSequence-1.0.0.xml
+[2024-10-25 11:56:43,130]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerForICInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerForICInSequence_1.0.0/ModifyCustomerForICInSequence-1.0.0.xml
+[2024-10-25 11:56:43,130]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerImageInSequence_1.0.0/ModifyCustomerImageInSequence-1.0.0.xml
+[2024-10-25 11:56:43,131]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerInSequence_1.0.0/ModifyCustomerInSequence-1.0.0.xml
+[2024-10-25 11:56:43,131]  INFO {SequenceDeployer} - Sequence named 'OutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/OutSequence_1.0.0/OutSequence-1.0.0.xml
+[2024-10-25 11:56:43,132]  INFO {API} - {api:AccountOpeningAPI} Initializing API: AccountOpeningAPI
+[2024-10-25 11:56:43,132]  INFO {APIDeployer} - API named 'AccountOpeningAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846602935WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AccountOpeningAPI_1.0.0/AccountOpeningAPI-1.0.0.xml
+[2024-10-25 11:56:43,133]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0{super-tenant}
+[2024-10-25 11:56:43,133]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car
+[2024-10-25 11:56:43,133]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:43,135]  INFO {EndpointDeployer} - Endpoint named 'inquireLoanAccount_Ep' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846603133inquireLoanAccountCompositeExporter_1.0.0-SNAPSHOT.car/inquireLoanAccount_Ep_1.0.0/inquireLoanAccount_Ep-1.0.0.xml
+[2024-10-25 11:56:43,218]  INFO {API} - {api:inquireLoanAccountAPI} Initializing API: inquireLoanAccountAPI
+[2024-10-25 11:56:43,219]  INFO {APIDeployer} - API named 'inquireLoanAccountAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1729846603133inquireLoanAccountCompositeExporter_1.0.0-SNAPSHOT.car/inquireLoanAccountAPI_1.0.0/inquireLoanAccountAPI-1.0.0.xml
+[2024-10-25 11:56:43,219]  INFO {CappDeployer} - Successfully Deployed Carbon Application : inquireLoanAccountCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2024-10-25 11:56:43,219]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : inquireLoanAccountCompositeExporter_1.0.0-SNAPSHOT.car
+[2024-10-25 11:56:43,219]  INFO {ServiceCatalogUtils} - Faulty CAPPs detected - aborting the service-catalog uploader
+[2024-10-25 11:56:43,237]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2024-10-25 11:56:43,239]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2024-10-25 11:56:43,239]  INFO {StartupFinalizer} - WSO2 Micro Integrator started in 18.91 seconds
+[2024-10-25 11:56:43,525]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2024-10-25 11:56:43,636]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
